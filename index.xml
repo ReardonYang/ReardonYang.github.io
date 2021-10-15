@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo ʕ•ᴥ•ʔ Bear Blog</title>
+    <title>杨靖武 ʕ•ᴥ•ʔ</title>
     <link>https://example.com/</link>
-    <description>Recent content on Hugo ʕ•ᴥ•ʔ Bear Blog</description>
+    <description>Recent content on 杨靖武 ʕ•ᴥ•ʔ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2020, Jane Doe.</copyright>
@@ -20,26 +20,25 @@
     </item>
     
     <item>
-      <title>简历</title>
-      <link>https://example.com/hugo/</link>
+      <title>工具</title>
+      <link>https://example.com/tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/hugo/</guid>
-      <description>Hugo Website: https://gohugo.io
-Written in Go, Hugo is an open-source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML, and JSON data file types, Markdown and HTML content files, and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification, and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:</description>
+      <guid>https://example.com/tool/</guid>
+      <description>🛠 能工摹其形，巧匠摄其魂
+ 日常使用工具
+ 比特币 Bitcoin：非主权货币；查看详情 Git：版本管理工具；查看详情 Syncthing：P2P同步工具；查看详情 ExpressVPN：科学上网工具；查看详情 蓝灯 Lantern：科学上网工具；查看详情 中本聪研究所：传播中本聪思想；查看详情 Infinite Market Cap：全球资产排名工具；查看详情 维基文库：自由的图书馆；查看详情 Ledger：安全的加密货币/资产硬件钱包；查看详情   “古劍有沈盧、魚腸之名，沈音湛。沈盧謂其湛湛然黑色也。古人以劑鋼為刃，柔鐵不莖榦；不爾則多斷折。劍之鋼者，刃多毀缺，巨闕是也。故不可純用劑鋼。魚腸即今蟠鋼劍也，又謂之松文。取諸魚燔熟，褫去脅，視見其腸，正如今之蟠鋼劍文也。”</description>
     </item>
     
     <item>
       <title>联系</title>
-      <link>https://example.com/bear/</link>
+      <link>https://example.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/bear/</guid>
-      <description>Bear Website: https://bearblog.dev
-There is a website obesity crisis. Bloated websites are full of scripts, ads, and trackers slowing your readers down every time they try to read your well-crafted content.
-Bear is all you need to build a fantastic and optimized site or blog. It works perfectly on any viewing device. All you need to focus on is writing good content.
-Bear makes it simple to publish content online and grow an audience while keeping pages tiny, fast, and optimized for search engines.</description>
+      <guid>https://example.com/contact/</guid>
+      <description>🐾 茶藍即菘藍，插根活。蓼藍、馬藍、吳藍等皆撒子生。近又出蓼藍小葉者俗名莧藍，種更佳。
+ 还可以在这些地方找到我:
+ 邮箱：reardonyang@gmail.com 豆瓣：查看详情 Github： 查看详情  </description>
     </item>
     
   </channel>
