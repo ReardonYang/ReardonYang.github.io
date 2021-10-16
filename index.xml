@@ -7,236 +7,180 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright © 2021, Reardon Yang.</copyright>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <title>年关</title>
+      <link>https://reardonyang.com/%E5%B9%B4%E5%85%B3/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://reardonyang.com/%E5%B9%B4%E5%85%B3/</guid>
+      <description>夜幕降临了，往家里搬东西，补“缺货”，对联，鞭炮，水果，浆糊，鸡爪，锅碗瓢盆……
+亲戚都回来了，能闻到空气中牛粪，鸡屎，火药混合的气味。
+父母一年忙上头，仿佛就是为了这几天。卑微又伟大的梦想。
+穿暖，吃饱是那个时代的首要目标。然后是家里要收拾得干干净净的，因为会有人来嘛，要给人好的感觉。
+早上很晚醒，电视里播着《倚天屠龙记》，缩在被窝了，听着外面冷风呼啸，心很静，很静很静。想得也都是很近很近的事——吃什么，好冷啊，成绩啥时候出，啥时候去买衣服，啥时候去婆婆家，买多少爆竹，天晴了去哪玩，今年会下雪吗。
+ </description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <title>北国</title>
+      <link>https://reardonyang.com/%E5%8C%97%E5%9B%BD/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://reardonyang.com/%E5%8C%97%E5%9B%BD/</guid>
+      <description>五点多醒了，心里想着些事，终究睡不着。
+石家庄，还真是让人很不习惯，食物，天气，城市面貌，没有一处让人舒服。满大街东北菜、沧州菜、驴肉火烧，难以亲近。天气灰蒙蒙，从九月头待到九月下旬，总觉得现有衣物不合适，没法减也没法添。出小区，往左，往右，往前，往后，走不多久就在修路，路面不平。
+曾在内蒙四年，只记得冬天学校图书馆烫屁股的暖气，对北国的好感，也仅此一点。
+好处还是有的，首先是公司给租的宿舍较大，160多平，相比深圳的一隅，自在不少。但没法做饭，得自己另外置办锅碗酱醋，想想在这边时日未知，遂作罢。靠外卖维持营养所需，外卖小哥服务一如既往好，爬五楼，敲门递过来，还不忘爽朗一声——您慢用。虽然如此，还是日渐消瘦，衣带渐宽……
+然后是水果便宜。有点意外。巨峰葡萄、冬枣、李子，相比深圳，便宜不少。十块钱四斤的桃子，实惠。
+还有就是，离其它北方城市近，沈阳、长春、哈尔滨、呼和浩特、北京、榆林、太原、漠河……距离近在咫尺，拿漠河来说，从石家庄转哈尔滨然后飞漠河，相比深圳，价格上有优势。然而，来冀半月余，工作强度实在大，连续周末加班，东三省行程化为泡影。
+还是老毛病，每每浑噩日子过久，就容易厌烦，难以忍受这岁月飞逝。
+听说早起让人更加从容，打算试试。
+希望月底能将这边事告一段落。想回南边了。
+ </description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <title>更少</title>
+      <link>https://reardonyang.com/%E6%9B%B4%E5%B0%91/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://reardonyang.com/%E6%9B%B4%E5%B0%91/</guid>
+      <description>今天得闲，将青年时期爱的一些人物翻出来看，仍是喜欢，但仿佛是上个世纪事了。
+工作后这两年，兴趣变化太大，文史的东西看得少了，工具类的东西看得多了。
+以前，文史总是能让我抽离，给我力量、滋润、思考。现在却很难看进太过于理念性、思辨性的东西。
+如果我没有进计算机行业，而是像大学时所向往了，进了新闻传媒行业，大概就是另一番景象了。但，会更好吗？
+理性、政治、法律、历史、哲学、主张、台湾、荒谬、反对……
+算法、项目、测试、团队、流程、设计、会议、产品、数据……
+现在好像有一点厌倦了，细胞和芯片真的是同构的吗？
+有人说：所谓财富自由，就是不用为了满足生活所需，而出售自己的时间。 这句话对错先不论。但真的很难想象，如果没有工作，我会去做什么。会比现在更自在吗，问题会更少吗？
+打开微博关注名单，共426人，批量取关到只剩9人。重要的东西好像并没有那么多。
+随时就能找到的，和需要花力气才能找到的，才是重要的东西。而列表中的东西，往往是最不重要的。
+年岁越大，越开始知道什么是重要的，什么是古人留下来迷惑你的。
+活得再明白一点，挺好。
+ </description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <title>曼谷</title>
+      <link>https://reardonyang.com/%E6%9B%BC%E8%B0%B7/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://reardonyang.com/%E6%9B%BC%E8%B0%B7/</guid>
+      <description> 城市是众多事物的一个整体：记忆的整体，欲望的整体，一种言语的符号的整体&amp;hellip;&amp;hellip;城市就像一块海绵，吸汲着这些不断涌流的记忆的潮水，并且随之膨胀着。——看不见的城市（Italo Calvino）
+ 这个中秋，第四次到曼谷。
+依然是满街的萨瓦迪卡，满城的动荡妖艳。
+前三次是独自前行，信马由缰。而这次，是有备而来，目标明确。
+同行的人说，曼谷给他的感觉是：太杂糅了，杂糅中带着阴柔。
+的确如此。
+但是，曼谷的杂糅，不是那种包容的杂糅，而是那种被攻陷的杂糅。
+我当然还是爱这座城市的——有旧世界的模样，有新道德的放浪。
+但是，我在满脸堆笑的曼谷人身上，看不到一丝我想象中该有的盛世的样子，却是为何？
+ </description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <title>美好</title>
+      <link>https://reardonyang.com/%E7%BE%8E%E5%A5%BD/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://reardonyang.com/%E7%BE%8E%E5%A5%BD/</guid>
+      <description>无法被完成的，往往是美好的。
+比如年少时借的未及看完的书，不再重逢的老友，不够完美的旅程，不可收回的话，不能被完成的承诺。
+这些无法被完成的，成为时光洪流中的礁石，无法被冲走，他们见证了曾经的种种存在。让你如鲠在喉，如芒在背。
+在傍晚的余晖，凌晨的梦幻中，在时间的碎屑中，我一遍遍和你们道别，与你们共享我最隐秘的思绪。
+我想要告诉你们，你们永远是我的朋友。
+ </description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <title>香港</title>
+      <link>https://reardonyang.com/%E9%A6%99%E6%B8%AF/</link>
+      <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://reardonyang.com/%E9%A6%99%E6%B8%AF/</guid>
+      <description>昨天带老妈去了一趟香港，从福田口岸过关，一天的来回。时间紧凑，行程匆忙，再加上这段时间来，香港局势动荡，心有忌惮，总之是没能尽兴。
+也是偶然，来之前，恰好看了“东京物语”。剧中，刚到东京的时候，妈妈说：“原来东京这么近。”决定离开东京的时候，妈妈说：“东京真的太远了。”
+整个行程中，被“东京物语”中这种亲情寡淡，生命衰逝而扰动。心中隐有沉闷之感。
+老妈说，“香港是一个遥远的梦，没想到现在却在梦里了”。
+旅途中，老妈一途笑语，顺从，节制。我心存感激。
+旺角，油麻地，佐敦，尖沙咀，铜锣湾，诚品，重庆大厦，崇光百货，维多利亚公园，星光大道。点卯而过。骄阳炙烤。
+老妈买的是沐浴露，洗发膏，面膜片，香精水，软糖片，都是给家里人带的。看了黄金，看了手串，最终都没要，黄金嫌贵，手串是想着会褪色，不想上当。
+回程福田，才知深圳真实，亲近。香港却像是假的，塑料花一般。
+不知下次何时，能带着父母一同再游乐，旅行。去一个舒适，自在一点的地方。
+他们的时间，已经过去三分有二。而我的，也已经过去三分有一。
+时间，不多了……
+2019年08月12日17:58 记于南山区海典居
+ </description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <title>春雨</title>
+      <link>https://reardonyang.com/%E6%98%A5%E9%9B%A8/</link>
+      <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://reardonyang.com/%E6%98%A5%E9%9B%A8/</guid>
+      <description>天虽然阴沉着，但是空气闻起来爽快，利索。
+没有预兆的，落起了雨，一滴两滴，然后便淅淅沥沥下了起来。不知是春雨，还是夏雨，这个时节，很容易使人有天荒地老之感。
+很快，有人在檐下放了两只木桶，雨水打在瓦片上，汇聚而下，嘀嘀嗒嗒，咚咚咚，落在桶里。
+坐在檐下，隔着雨帘，只觉凉爽，明亮异常。
+四下静穆。
+桶里水接满后，又有人将水拎到屋内，倒进水缸，这下免去了好几趟挑水的力气。
+霎时，四下热闹，欢快起来，原来是有孩童过来，放学了，孩童躲在伞里，穿着雨靴，踏着积水，叽叽喳喳而来。
+应该是春雨吧，夏天会有暑气，不似现在这般，清新，安逸，自在。
+隔壁屋隐约有大声说话声音传来，噢，原来是大人们在搓麻将子儿。多亏了这雨，这天，连赌桌上的争吵声，都显得和谐，亲切。
+雨后，正适合踏青，河岸边，田垄上，一汪汪绿油油的积水。这水引得人想要去践踏，去跨越，去嘻戏。
+空气真香，沁人心脾。
+ </description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <title>永安</title>
+      <link>https://reardonyang.com/%E6%B0%B8%E5%AE%89/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://reardonyang.com/%E6%B0%B8%E5%AE%89/</guid>
+      <description>经历了人生的诡谲沉浮，静默无声后，老向依然宛若孩童，处子，刺客。好像这荒唐，潦倒，破碎，逝去的前半生和他竟无甚关系，没有给他留下丝毫伤痕。
+他像一把刚出鞘的刀，寒气逼人，削铁如泥。他比以往任何时候都更相信自己。
+依然没有人知道他的思索，没有人知道他的渴望，没有人知道他要走的路。不同的是，如今他已是众叛亲离，千金散尽。
+ </description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <title>安静</title>
+      <link>https://reardonyang.com/%E5%AE%89%E9%9D%99/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://reardonyang.com/%E5%AE%89%E9%9D%99/</guid>
+      <description>我當然在這個社會也各種不適應，卻也平靜，接受。
+我意識到很多事情發生和人在特定時期價值觀有關。價值觀當然不是個穩定，一成不變東西，事物變化發展，人被事物裹挾，价值二一添作五。
+此時此地。你相信什麼，不相信什麼；你接受什麼，不接受什麼；你表現什麼，不表現什麼⋯⋯
+這些答案交織，就是你此時此地價值觀，價值觀是動因，是潮水，直接推動事情發展，流變，形成際遇。
+一年多前看王陽明講知行合一（錢穆《陽明學述要》）：“知是行的主義，行是知的功夫。知是行之始，行是知之成。若會得時，只說一個知，已自有行在；只說一個行，已自有知在。”就是這個道理。
+ </description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <title>断章</title>
+      <link>https://reardonyang.com/%E6%96%AD%E7%AB%A0/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://reardonyang.com/%E6%96%AD%E7%AB%A0/</guid>
+      <description>我开车，坐船，又来到这儿，原先这里没有道路可寻，郁郁葱葱拥着水波荡漾。现在岸边孤零零立着双车道柏油路，我知道，一切都不一样了，他摆摆手，示意我们没有时间了，于是我们继续向前，不再停留。头顶阴云密布，阳光从云层中打下道道光柱，也将云层映得火烧一般。
+路尽头渐渐能看到火光，像一团被拨散的蛋黄，四周依然是死一般安静，温度变高了，我们不得不脱下长衫，扔在路边。
+我和他都已孑然一身。
+ </description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <title>life</title>
+      <link>https://reardonyang.com/life/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://reardonyang.com/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://reardonyang.com/life/</guid>
+      <description>生活点滴
+生命只是一连串孤立的片刻，靠着回忆和幻想，许多意义浮现了，然后消失，消失之后又浮现。
+  年关  </description>
     </item>
     
     <item>
@@ -245,7 +189,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://reardonyang.com/tool/</guid>
-      <description>🛠 能工摹其形，巧匠摄其魂
+      <description>🎸 工欲善其事必先利其器
  日常使用工具
  比特币 Bitcoin：非主权货币；查看详情 Git：版本管理工具；查看详情 Syncthing：P2P同步工具；查看详情 ExpressVPN：科学上网工具；查看详情 蓝灯 Lantern：科学上网工具；查看详情 中本聪研究所：传播中本聪思想；查看详情 Infinite Market Cap：全球资产排名工具；查看详情 维基文库：自由的图书馆；查看详情 Ledger：安全的加密货币/资产硬件钱包；查看详情   “古劍有沈盧、魚腸之名，沈音湛。沈盧謂其湛湛然黑色也。古人以劑鋼為刃，柔鐵不莖榦；不爾則多斷折。劍之鋼者，刃多毀缺，巨闕是也。故不可純用劑鋼。魚腸即今蟠鋼劍也，又謂之松文。取諸魚燔熟，褫去脅，視見其腸，正如今之蟠鋼劍文也。”</description>
     </item>
