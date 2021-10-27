@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>操作手册 on 杨靖武</title>
+    <link>https://reardonyang.com/blog/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/</link>
+    <description>Recent content in 操作手册 on 杨靖武</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Copyright © 2021, Reardon Yang.</copyright>
+    <lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/blog/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>别TM去炒币了，手把手教你发行自己的虚拟币</title>
+      <link>https://reardonyang.com/%E5%88%ABtm%E5%8E%BB%E7%82%92%E5%B8%81%E4%BA%86%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%8F%91%E8%A1%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E8%99%9A%E6%8B%9F%E5%B8%81/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E5%88%ABtm%E5%8E%BB%E7%82%92%E5%B8%81%E4%BA%86%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%8F%91%E8%A1%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E8%99%9A%E6%8B%9F%E5%B8%81/</guid>
+      <description>本教程基于以太坊生态ERC-20协议，不需要任何编程技术 本教程仅适用于计算机基础较薄弱的朋友，熟手请绕道 文中所有的链接处，请右键单击，选择在”新的窗口打开”   本文所述的，发行自己的虚拟币/虚拟资产/私人货币/ERC-20代币（以下统称为“代币”），需要以下几个步骤：
+ 准备一台可上网的电脑； 准备好自己所要发行代币的属性信息； 安装并打开谷歌浏览器； 在谷歌浏览器中，安装并配置MetaMask钱包（以下简称”小狐狸钱包“）； 获取以太坊Ropsten测试网络ETH代币； 使用一键发币工具`，发行自己的代币； 将发行好的代币添加到自己的钱包； 完成；  以下为详细步骤：
+ 1.准备一台可上网的电脑； 首先准备一台可上网的电脑，发币的过程在电脑上完成，Windows电脑和苹果电脑均可。
+ 2.准备好自己所要发行代币的属性信息； 请先想好自己所要发行的代币的属性信息，然后写在纸上，方便后续直接填写；
+属性信息包括：
+ 代币名称：如Bitcoin, Citcoin, Ditcoin, renminbi.（请使用英文字符） 代币符号：如BTC, CTC, DTC, RMB.（通常为3-5个字符） 代币初始供应量（单位/个）：如21000000, 100000.   3.安装并打开谷歌浏览器； 使用火狐Firefox浏览器操作也可以，但这里推荐使用谷歌浏览。较为稳定。请先安装好，后面的所有操作都在谷歌浏览器上进行.
+安装地址：点击进行安装
+注：如果你在中国大陆境内，未科学上网的情况下，请下载、安装蓝灯 Lantern, 实现科学上网（可免费使用），必须实现科学上网，后面的步骤需要通过谷歌应用商店下载小狐狸钱包：链接地址
+ 4.在谷歌浏览器中，安装并配置小狐狸钱包； 注：如果阅读英文较为吃力，可在浏览器中点击右键，选择“翻译成中文”
+注：如果已经安装并配置好小狐狸钱包，请直接进入下一步
+在谷歌浏览器中，打开链接地址
+在左侧搜索栏，搜索 metamask ，可看到下图所示的应用，点击进行安装，然后按照应用的引导进行配置。
+注：请严格按照页面指引，配置小狐狸钱包，即便现在是使用测试网，也请仅在纸上记下助记词，不要在任何网盘存储助记词，也不要将助记词通过通讯工具发送给任何人，养成良好的私钥管理习惯
+配置好后，点击小狐狸图标，切换到Ropsten测试网络，
+ 5.获取以太坊Ropsten测试网络ETH代币； 注：本教程以在以太坊Ropsten测试网络为例，发行代币，若在主网发行代币，需全程切换到“以太坊Ethereum主网络（以下简称主网）”。现在请按下图所示，选择以太坊Ropsten测试网络（以下简称测试网）
+选择好后，如下图所示，在页面上红框所示处，复制你的Ropsten测试网络钱包地址，形如：
+0x0b254C0b1C639c2BD8935d21A1cbCa52063b6c90
+然后打开以下链接地址，将上面所复制的钱包地址粘贴到地址填写栏，获取免费的测试网ETH，如下图所示，然后再点击Send me test Ether，等待几秒后，再次打开小狐狸，就可以看到测试网的钱包中，已经有了测试网ETH。
+注：这里的ETH仅供测试使用，无法提取到交易所进行交易
+ 6. 使用一键发币工具，发行自己的虚拟币； 完成以上的所有步骤之后，就可以正式开始发行代币了。
+打开一键发币工具：链接地址
+在下图所示左侧界面中，依次填写：</description>
+    </item>
+    
+  </channel>
+</rss>
