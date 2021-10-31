@@ -24,7 +24,7 @@
  阅读：比特币白皮书  关注我：Twitter || 豆瓣 ； 阅读我写的关于比特币的文章； 关注：Michael Saylor 和 Andreas M. Antonopoulos； 睡觉 💤   3.准备就绪 拿到买到所有的所有设备后，就可以开始搭建全节点了：
  先给树莓派套上外壳，贴上散热片（此为可选项，没有散热片也可），拧上螺丝； 将microSD存储卡插入到读卡器中，然后插到电脑上；   4.下载Umbrel和Balena Etcher 分别下载Umbrel和Balena Etcher
 下载后，安装Balena Etcher。
-注：上图为笔者所使用的版本，点击以上链接后，请直接下载最新版本。</description>
+注：上图为笔者所使用的版本，点击以上链接后，可直接下载最新版本，使用方法一样。</description>
     </item>
     
     <item>
