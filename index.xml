@@ -9,6 +9,48 @@
     <copyright>Copyright © 2021, Reardon Yang.</copyright>
     <lastBuildDate>Tue, 02 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>工具</title>
+      <link>https://reardonyang.com/tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/tool/</guid>
+      <description>🎸 工欲善其事必先利其器
+-&amp;gt;日常使用工具
+ 比特币 Bitcoin：非主权货币 Git：版本管理工具 Syncthing：P2P同步工具 ExpressVPN：科学上网工具 中本聪研究所：传播中本聪思想 Infinite Market Cap：全球资产排名工具 Ledger：安全的加密货币/资产硬件钱包   “古劍有沈盧、魚腸之名，沈音湛。沈盧謂其湛湛然黑色也。古人以劑鋼為刃，柔鐵不莖榦；不爾則多斷折。劍之鋼者，刃多毀缺，巨闕是也。故不可純用劑鋼。魚腸即今蟠鋼劍也，又謂之松文。取諸魚燔熟，褫去脅，視見其腸，正如今之蟠鋼劍文也。”</description>
+    </item>
+    
+    <item>
+      <title>版权</title>
+      <link>https://reardonyang.com/copyright/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/copyright/</guid>
+      <description>📘 版权声明
+本站所有内容在Creative Commons 署名-非商业性使用-相同方式共享 3.0 协议下。
+您可以自由地：  共享 — 在任何媒介以任何形式复制、发行本作品 演绎 — 修改、转换或以本作品为基础进行创作  只要你遵守许可协议条款，许可人就无法收回你的这些权利。
+惟须遵守下列条件：   署名 — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
+  非商业性使用 — 您不得将本作品用于商业目的。
+  相同方式共享 — 如果您再混合、转换或者基于本作品进行创作，您必须基于与原先许可协议相同的许可协议 分发您贡献的作品。
+  没有附加限制 — 您不得适用法律术语或者 技术措施 从而限制其他人做许可协议允许的事情。
+  声明：   您不必因为公共领域的作品要素而遵守许可协议，或者您的使用被可适用的 例外或限制所允许。
+  不提供担保。许可协议可能不会给与您意图使用的所必须的所有许可。例如，其他权利比如形象权、隐私权或人格权可能限制您如何使用作品。`
+   ⚽ 如需其他使用请联系我。</description>
+    </item>
+    
+    <item>
+      <title>计划</title>
+      <link>https://reardonyang.com/plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/plan/</guid>
+      <description>⏰ 内容更新计划
+-&amp;gt;近期将要完成的内容 🚀
+ 比特币闪电网络介绍； 科学上网工具介绍； 伊隆·马斯克关于比特币\加密货币\狗狗币的观点汇总；  -&amp;gt;持续更新的内容 🔥
+ 闲话比特币； 比特币微科幻； 中本聪文集（电子邮件、论坛帖子、代码、白皮书）；  -&amp;gt;远期可能会加入的内容（也可能，就不写了） 😴
+ 上海印象 MetaMask介绍 影响我的作家   “禮由人起。人生有欲，欲而不得則不能無忿，忿而無度量則爭，爭則亂。先王惡其亂，故制禮義以養人之欲，給人之求，使欲不窮於物，物不屈於欲，二者相待而長，是禮之所起也。故禮者養也。稻粱五味，所以養口也；椒蘭芬茝，所以養鼻也；鐘鼓管弦，所以養耳也；刻鏤文章，所以養目也；疏房床笫几席，所以養體也：故禮者養也。”</description>
+    </item>
+    
+    <item>
       <title>闲话比特币009：全球化，从区块链技术出现才真正开始破局</title>
       <link>https://reardonyang.com/%E9%97%B2%E8%AF%9D%E6%AF%94%E7%89%B9%E5%B8%81009%E5%85%A8%E7%90%83%E5%8C%96%E4%BB%8E%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E5%87%BA%E7%8E%B0%E6%89%8D%E7%9C%9F%E6%AD%A3%E5%BC%80%E5%A7%8B%E7%A0%B4%E5%B1%80/</link>
       <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
@@ -99,9 +141,9 @@
       <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://reardonyang.com/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E8%A1%8C%E4%B8%9A%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</guid>
-      <description>₿ 内容持续更新中……  ✔️ CoinMarketCap  简介：查询各种加密货币/资产的排名、市值、价格，以及详细信息； 网址：coinmarketcap.com  -₿-₿-₿-₿-₿-₿-₿-₿-₿-₿-
-✔️ BlockChair  简介：区块链搜索和分析引擎，适用于比特币、狗狗币、以太坊、莱特币、Cardano、Stellar、EOS、Monero、Tezos、Dash、Zcash等各类数字货币，可以按照个性化需求，对区块、交易及其内容进行过滤和排序，还可以对区块链内容进行全文搜索； 网址：blockchair.com  -₿-₿-₿-₿-₿-₿-₿-₿-₿-₿-
-✔️ Infinite Market Cap  简介：对全球顶级资产进行市值排名，包括比特币和以太坊等加密货币，黄金和白银等贵金属，苹果和特斯拉等上市公司； 网址：8marketcap.com  -₿-₿-₿-₿-₿-₿-₿-₿-₿-₿-
+      <description>₿ 内容持续更新中……  ✔️ CoinMarketCap  简介：查询各种加密货币/资产的排名、市值、价格，以及详细信息。 网址：coinmarketcap.com  -₿-₿-₿-₿-₿-₿-₿-₿-₿-₿-
+✔️ BlockChair  简介：区块链搜索和分析引擎，适用于比特币、狗狗币、以太坊、莱特币、Cardano、Stellar、EOS、Monero、Tezos、Dash、Zcash等各类数字货币，可以按照个性化需求，对区块、交易及其内容进行过滤和排序，还可以对区块链内容进行全文搜索。 网址：blockchair.com  -₿-₿-₿-₿-₿-₿-₿-₿-₿-₿-
+✔️ Infinite Market Cap  简介：对全球顶级资产进行市值排名，包括比特币和以太坊等加密货币，黄金和白银等贵金属，苹果和特斯拉等上市公司。 网址：8marketcap.com  -₿-₿-₿-₿-₿-₿-₿-₿-₿-₿-
 ✔️ FiatMarketCap  简介：对全球各国的法币进行市值排名，此外还包括比特币。想象一下，如果比特币是事实上的全球价值储备。那么各国每1个单位的法币，能够兑换多少聪（Sats）？你在这里可以找到有趣的答案！ 网址：fiatmarketcap.com  -₿-₿-₿-₿-₿-₿-₿-₿-₿-₿-
 ✔️ mempool  简介：为比特币社区所构建的区块链浏览器，提供常用的比特币API工具，专注于比特币交易费市场和比特币多层协议生态，没有任何广告、山寨币及第三方跟踪器。 网址：mempool.space  -₿-₿-₿-₿-₿-₿-₿-₿-₿-₿-
 ✔️ 比特币维基百科  简介：向比特币用户、开发人员、相关企业，以及对比特币感兴趣的人提供的比特币百科全书服务。由于该网站资源可供公众自由编辑，读者应注意，网站所提供的材料不代表整个比特币社区的观点，有时可能已经过时、不正确或包含恶意。 网址：bitcoin.it  -₿-₿-₿-₿-₿-₿-₿-₿-₿-₿-
@@ -532,17 +574,6 @@ You&amp;rsquo;ve always shared my darkest hours</description>
       
       <guid>https://reardonyang.com/bitcoina-peer-to-peer-electonic-cash-system/</guid>
       <description>  以下为比特币白皮书分页（共9页）：          </description>
-    </item>
-    
-    <item>
-      <title>工具</title>
-      <link>https://reardonyang.com/tool/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/tool/</guid>
-      <description>🎸 工欲善其事必先利其器
--&amp;gt;日常使用工具
- 比特币 Bitcoin：非主权货币 Git：版本管理工具 Syncthing：P2P同步工具 ExpressVPN：科学上网工具 中本聪研究所：传播中本聪思想 Infinite Market Cap：全球资产排名工具 Ledger：安全的加密货币/资产硬件钱包   “古劍有沈盧、魚腸之名，沈音湛。沈盧謂其湛湛然黑色也。古人以劑鋼為刃，柔鐵不莖榦；不爾則多斷折。劍之鋼者，刃多毀缺，巨闕是也。故不可純用劑鋼。魚腸即今蟠鋼劍也，又謂之松文。取諸魚燔熟，褫去脅，視見其腸，正如今之蟠鋼劍文也。”</description>
     </item>
     
   </channel>

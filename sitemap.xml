@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://reardonyang.com/tool/</loc>
+  </url><url>
+    <loc>https://reardonyang.com/copyright/</loc>
+  </url><url>
+    <loc>https://reardonyang.com/plan/</loc>
+  </url><url>
     <loc>https://reardonyang.com/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -131,7 +137,5 @@
   </url><url>
     <loc>https://reardonyang.com/bitcoina-peer-to-peer-electonic-cash-system/</loc>
     <lastmod>2008-10-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://reardonyang.com/tool/</loc>
   </url>
 </urlset>
