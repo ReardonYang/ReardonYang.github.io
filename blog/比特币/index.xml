@@ -39,7 +39,7 @@
  准备/购买所需设备； 等待到货； 准备就绪； 下载Umbrel和Balena Etcher； 在microSD存储卡中安装/写入Umbrel； 连接设备； 完成；  以下为详细步骤：
  1.准备/购买所需设备👀 如果人在中国境内，以下设备均可在淘宝找到，请选择评价较好，交易数量相对较多的店铺，尽量选择天猫店，在国外则选择亚马逊购买即可：
  树莓派（型号为4B）（附带电源，电源请强烈建议选择官方版本），国内上淘宝，国外亚马逊； 树莓派外壳，注意要与树莓派型号一致（一般会附带有树莓派散热片）； 1TB固态硬盘； 固态硬盘盒子； 16GB容量以上microSD存储卡； microSD存储卡读卡器； 网线； 电脑，Windows电脑和苹果电脑均可；   2.等待到货 下单购买以上设备后，就耐心等待吧，等待将它们一件件从快递小哥那领回家。在等待期间，你可以通过以下事情打发时光：
- 阅读：比特币白皮书  关注我：Twitter || 豆瓣 ； 阅读我写的关于比特币的文章； 关注：Michael Saylor 和 Andreas M. Antonopoulos； 睡觉 💤   3.准备就绪 拿到买到所有的所有设备后，就可以开始搭建全节点了：
+ 阅读：比特币白皮书 | [下载]（https://github.com/ReardonYang/ReardonYang.github.io/raw/master/bitcoin.pdf） 关注我：Twitter || 豆瓣 ； 阅读我写的关于比特币的文章； 关注：Michael Saylor 和 Andreas M. Antonopoulos； 睡觉 💤   3.准备就绪 拿到买到所有的所有设备后，就可以开始搭建全节点了：
  先给树莓派套上外壳，贴上散热片（此为可选项，没有散热片也可），拧上螺丝； 将microSD存储卡插入到读卡器中，然后插到电脑上；   4.下载Umbrel和Balena Etcher 分别下载Umbrel和Balena Etcher
 下载后，安装Balena Etcher。</description>
     </item>
