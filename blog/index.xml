@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright © 2021, Reardon Yang.</copyright>
-    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记一次丢失&amp;找回比特币事件</title>
+      <link>https://reardonyang.com/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%B8%A2%E5%A4%B1%E6%89%BE%E5%9B%9E%E6%AF%94%E7%89%B9%E5%B8%81%E4%BA%8B%E4%BB%B6/</link>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%B8%A2%E5%A4%B1%E6%89%BE%E5%9B%9E%E6%AF%94%E7%89%B9%E5%B8%81%E4%BA%8B%E4%BB%B6/</guid>
+      <description>这次“丢失&amp;amp;找回比特币”事件，前后持续约1个月，从2021年10月26日晚，拿到树莓派外壳及散热片，到今天（2021年11月20日）下午三点钟，通过BlueWallet，找回链上资金及闪电网络资金。
+  丢币最主要的原因大概是因为我用了一个500G的硬盘，不够存放目前的比特币全节点。
+  首先，我按照Umbrel官方教程在树莓派上安装好Umbrel，并正确的备份了私钥。在区块并没有完成同步之前，我往钱包中转入了1549929聪比特币。接着是安装Ride the lightning应用。然后我试着和其他人建立一个通道，我往通道中转入了100154聪。我能够写得这么清楚是因为我还有当时的截图。提交通道建立申请后，通道的建立一直处在未确认状态，最后我了解到是因为没有完成区块同步，所以没办法建立通道，于是我关闭了申请，并且联系通道节点拒绝了我的申请。
+  在这期间，区块还是一直在同步，终于，当区块同步到96%左右的时候，同步的速度越来越慢，那个时候，我认为是硬盘满了，事实上也确实如此，硬盘只有500G（实际值是488G左右）。后来，区块同步一直处于停滞状态，整整一天，没有同步一个区块，于是，我考虑再买一块2T的硬盘。然后，我关闭了树莓派比特币全节点。
+  收到硬盘后，我用新的2T硬盘连接上树莓派，并输入了之前备份的24个词语。然后，重新开始区块同步。
+  这中间，继续是漫长等待，从2021年11月04日，一直同步到今天上午，也就是2021年11月20日上午10点左右，共16天，两个多周。实际上，这漫长的等待过程中，我一度认为我的币再也找不回了。
+     按理说，完成区块同步后，所有交易信息都会在交易列表中显示，但是很遗憾，Umbrel中一直没有显示历史记录。这也是我觉得Umbrel目前最大的问题，使用上非常不稳定，然后对新手或者说初阶用户极度不友好，应用商店中提供的多数应用程序基本都还处在实验性阶段。所以，我强烈建议不要在Umbrel上放大额资金。另外，动手能力和计算机基础薄弱的朋友，最好直接就不要倒腾那些乱七八糟的应用了，包括闪电网络
+  由于我输入的私钥是正确的，但是却没有显示交易记录，于是，我想，这是不是Umbrel本身不够稳定的问题，然后我试着将私钥导入到Imtoken，发现直接报错。
+  其实，让我觉得很疑惑的是，即便我锁进闪电网络通道的100154聪比特币完全丢失，那我至少应该还有（1549929聪-100154聪）= 549775聪的比特币在钱包中，但是为什么连这一部分也丢失了？我不明白。
+  我将我的丢币经历简短描述，发到了Umbrel的Telegram群。有不少朋友给我提了很多的解决问题的思路，这里真的是非常感激这个社群，其实在这个过程中，我甚至已经完全放弃了，已经接受丢币这个事实了。我在群里写到：“It hurts a bit. I have never spent any Sats I bought, but this time I lost some. I hope that other friends will not make this stupid mistake of mine. However, as Satoshi Nakamoto once said, if you lose Bitcoin, treat it as a gift to other hodlers.</description>
+    </item>
+    
     <item>
       <title>闲话比特币011：场内至少留一个比特币，场外至少留一个月馒头钱</title>
       <link>https://reardonyang.com/%E9%97%B2%E8%AF%9D%E6%AF%94%E7%89%B9%E5%B8%81011%E5%9C%BA%E5%86%85%E8%87%B3%E5%B0%91%E7%95%99%E4%B8%80%E4%B8%AA%E6%AF%94%E7%89%B9%E5%B8%81%E5%9C%BA%E5%A4%96%E8%87%B3%E5%B0%91%E7%95%99%E4%B8%80%E4%B8%AA%E6%9C%88%E9%A6%92%E5%A4%B4%E9%92%B1/</link>

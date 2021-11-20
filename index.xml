@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright © 2021, Reardon Yang.</copyright>
-    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://reardonyang.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -138,7 +138,7 @@
     <item>
       <title>Blog</title>
       <link>https://reardonyang.com/blog/</link>
-      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://reardonyang.com/blog/</guid>
       <description></description>
