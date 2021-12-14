@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>树莓派 on 杨靖武</title>
+    <link>https://reardonyang.com/blog/%E6%A0%91%E8%8E%93%E6%B4%BE/</link>
+    <description>Recent content in 树莓派 on 杨靖武</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Copyright © 2021, Reardon Yang.</copyright>
+    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/blog/%E6%A0%91%E8%8E%93%E6%B4%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>树莓派001：树莓派开启ftp和开启root远程权限</title>
+      <link>https://reardonyang.com/%E6%A0%91%E8%8E%93%E6%B4%BE001%E6%A0%91%E8%8E%93%E6%B4%BE%E5%BC%80%E5%90%AFftp%E5%92%8C%E5%BC%80%E5%90%AFroot%E8%BF%9C%E7%A8%8B%E6%9D%83%E9%99%90/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E6%A0%91%E8%8E%93%E6%B4%BE001%E6%A0%91%E8%8E%93%E6%B4%BE%E5%BC%80%E5%90%AFftp%E5%92%8C%E5%BC%80%E5%90%AFroot%E8%BF%9C%E7%A8%8B%E6%9D%83%E9%99%90/</guid>
+      <description> 开启FTP，安装vsftpd 指令：sudo apt-get install vsftpd  但是这样开启之后，ftp工具是可以连接了，但是只能从树莓派上获取文件，却无法上传
+需要修改树莓派的配置 sudo vim /etc/vsftpd.conf
+找到以下选项修改 anonymous_enable=NO local_enable=YES
+write_enable=YES local_umask=022
+然后重启ftp服务
+sudo service vsftpd restart
+启用root 1：修改root密码,默认是没有密码的
+sudo passwd root，注意输入密码的时候可能看不见，实际上是有输入的
+2：解锁root
+sudo passwd &amp;ndash;unlock root
+3：锁定root
+sudo passwd &amp;ndash;unlock root
+在SSH远程中使用root连接
+编辑 /etc/ssh/sshd_config 中
+sudo nano /etc/ssh/sshd_config
+PermitRootLogin yes #值更改为yes
+在FTP中使用root连接
+编辑 /etc/ftpusers 中
+sudo nano /etc/ftpusers
+在root前边加#, 注释掉它 sudo service vsftpd restart 这样就可以用root用户登录了.
+ </description>
+    </item>
+    
+  </channel>
+</rss>
