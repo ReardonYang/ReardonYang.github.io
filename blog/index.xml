@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright © 2021, Reardon Yang.</copyright>
-    <lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>辛丑</title>
+      <link>https://reardonyang.com/%E8%BE%9B%E4%B8%91/</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E8%BE%9B%E4%B8%91/</guid>
+      <description>2021年，30岁。
+没有想象中那么沉重，没有青年危机，没有彻夜难眠，也没有想象中三十而立的使命感。
+2021很平静，甚至说，有点乏味。
+这一年，从软件园换到生态园，然后又到松坪山。仿佛再次回到起点。
+虽然平淡，也还是有些收获：
+ 改善了生活，和乔乔搬进了一个稍大一点的房子，不再合租 乔乔进了一家还不错的公司 买了特斯拉 比特币数量增加 学会了用hugo+github建设网站 开始接触海外项目 去了福源寺，弘法寺（仍然会谤佛，但好些了）  想了想，最遗憾的大概是，新冠疫情仍在全球肆虐，不能去东京，不能去曼谷，不能去太多的地方。
+希望2022年会是“离开”的开始。
+我一直相信，以人类现有生产力，其实是远远够全人类更好生活，更好发展的。但是僵化的分配方式，落后的生产关系，限制了这个可能性。而我们通过谨慎的迁徙，挪动，这可以在一定程度上，改变这个现状。
+2022年01月15日 记于深圳市南山区源政创业大厦。
+ </description>
+    </item>
+    
     <item>
       <title>闲话比特币012：法币的底层是暴力，比特币的底层是算力</title>
       <link>https://reardonyang.com/%E9%97%B2%E8%AF%9D%E6%AF%94%E7%89%B9%E5%B8%81012%E6%B3%95%E5%B8%81%E7%9A%84%E5%BA%95%E5%B1%82%E6%98%AF%E6%9A%B4%E5%8A%9B%E6%AF%94%E7%89%B9%E5%B8%81%E7%9A%84%E5%BA%95%E5%B1%82%E6%98%AF%E7%AE%97%E5%8A%9B/</link>
@@ -397,24 +415,6 @@ local_umask=022
 父母一年忙上头，仿佛就是为了这几天。卑微又伟大的梦想。
 穿暖，吃饱是那个时代的首要目标。然后是家里要收拾得干干净净的，因为会有人来嘛，要给人好的感觉。
 早上很晚醒，电视里播着《倚天屠龙记》，缩在被窝了，听着外面冷风呼啸，心很静，很静很静。想得也都是很近很近的事——吃什么，好冷啊，成绩啥时候出，啥时候去买衣服，啥时候去婆婆家，买多少爆竹，天晴了去哪玩，今年会下雪吗。
- </description>
-    </item>
-    
-    <item>
-      <title>辛丑</title>
-      <link>https://reardonyang.com/%E8%BE%9B%E4%B8%91/</link>
-      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://reardonyang.com/%E8%BE%9B%E4%B8%91/</guid>
-      <description>2021年，30岁。
-没有想象中那么沉重，没有青年危机，没有彻夜难眠，也没有想象中三十而立的使命感。
-2021很平静，甚至说，有点乏味。
-这一年，从软件园换到生态园，然后又到松坪山。仿佛再次回到起点。
-虽然平淡，也还是有些收获：
- 改善了生活，和乔乔搬进了一个稍大一点的房子，不再合租 乔乔进了一家还不错的公司 买了特斯拉 比特币数量增加 学会了用hugo+github建设网站 开始接触海外项目 去了福源寺，弘法寺（仍然会谤佛，但好些了）  想了想，最遗憾的大概是，新冠疫情仍在全球肆虐，不能去东京，不能去曼谷，不能去太多的地方。
-希望2022年会是“离开”的开始。
-我一直相信，以人类现有生产力，其实是远远够全人类更好生活，更好发展的。但是僵化的分配方式，落后的生产关系，限制了这个可能性。而我们通过谨慎的迁徙，挪动，这可以在一定程度上，改变这个现状。
-2022年01月15日 记于深圳市南山区源政创业大厦。
  </description>
     </item>
     
