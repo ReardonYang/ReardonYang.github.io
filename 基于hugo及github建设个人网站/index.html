@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://reardonyang.com/images/favicon.png" />
+<title>基于hugo及github建设个人网站 | 杨靖武</title>
+<meta name="title" content="基于hugo及github建设个人网站" />
+<meta name="description" content="以下教程适用于Windows系统下，基于hugo及github，建设个人网站。
+第一步，安装hugo 安装最新版hugo，https://github.com/gohugoio/hugo/releases
+第二步，安装Visual Studio Code
+第三步，安装Git，https://git-scm.com/download/win
+git config &ndash;global user.name &ldquo;Reardon&rdquo; git config &ndash;global user.email &ldquo;reardonyang@gmail.com&rdquo;
+cd reardonyang.com
+git init
+git add .
+git commit -m &ldquo;备注&rdquo;
+git push -u origin master
+git remote add origin https://github.com/ReardonYang/ReardonYang.github.io.git
+常用命令： " />
+<meta name="keywords" content="操作教程," />
+
+
+<meta property="og:title" content="基于hugo及github建设个人网站" />
+<meta property="og:description" content="以下教程适用于Windows系统下，基于hugo及github，建设个人网站。
+第一步，安装hugo 安装最新版hugo，https://github.com/gohugoio/hugo/releases
+第二步，安装Visual Studio Code
+第三步，安装Git，https://git-scm.com/download/win
+git config &ndash;global user.name &ldquo;Reardon&rdquo; git config &ndash;global user.email &ldquo;reardonyang@gmail.com&rdquo;
+cd reardonyang.com
+git init
+git add .
+git commit -m &ldquo;备注&rdquo;
+git push -u origin master
+git remote add origin https://github.com/ReardonYang/ReardonYang.github.io.git
+常用命令： " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://reardonyang.com/%E5%9F%BA%E4%BA%8Ehugo%E5%8F%8Agithub%E5%BB%BA%E8%AE%BE%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/" /><meta property="og:image" content="https://reardonyang.com/images/share.jpg"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-05-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-05-01T00:00:00+00:00" /><meta property="og:site_name" content="杨靖武" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://reardonyang.com/images/share.jpg"/>
+
+<meta name="twitter:title" content="基于hugo及github建设个人网站"/>
+<meta name="twitter:description" content="以下教程适用于Windows系统下，基于hugo及github，建设个人网站。
+第一步，安装hugo 安装最新版hugo，https://github.com/gohugoio/hugo/releases
+第二步，安装Visual Studio Code
+第三步，安装Git，https://git-scm.com/download/win
+git config &ndash;global user.name &ldquo;Reardon&rdquo; git config &ndash;global user.email &ldquo;reardonyang@gmail.com&rdquo;
+cd reardonyang.com
+git init
+git add .
+git commit -m &ldquo;备注&rdquo;
+git push -u origin master
+git remote add origin https://github.com/ReardonYang/ReardonYang.github.io.git
+常用命令： "/>
+
+
+
+<meta itemprop="name" content="基于hugo及github建设个人网站">
+<meta itemprop="description" content="以下教程适用于Windows系统下，基于hugo及github，建设个人网站。
+第一步，安装hugo 安装最新版hugo，https://github.com/gohugoio/hugo/releases
+第二步，安装Visual Studio Code
+第三步，安装Git，https://git-scm.com/download/win
+git config &ndash;global user.name &ldquo;Reardon&rdquo; git config &ndash;global user.email &ldquo;reardonyang@gmail.com&rdquo;
+cd reardonyang.com
+git init
+git add .
+git commit -m &ldquo;备注&rdquo;
+git push -u origin master
+git remote add origin https://github.com/ReardonYang/ReardonYang.github.io.git
+常用命令： "><meta itemprop="datePublished" content="2022-05-01T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-05-01T00:00:00+00:00" />
+<meta itemprop="wordCount" content="39"><meta itemprop="image" content="https://reardonyang.com/images/share.jpg"/>
+<meta itemprop="keywords" content="操作教程," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>杨靖武</h2>
+</a>
+<nav><a href="/">首页</a>
+
+<a href="/category/">分类</a>
+
+<a href="/plan/">计划</a>
+
+<a href="/tool/">工具</a>
+
+<a href="/copyright/">版权</a>
+
+
+<a href="/blog">全部文章</a>
+
+</nav>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NSSE83FXH4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NSSE83FXH4');
+</script></header>
+  <main>
+
+<h1>基于hugo及github建设个人网站</h1>
+<p>
+  <i>
+    <time datetime='2022-05-01' pubdate>
+      2022-05-01
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>以下教程适用于Windows系统下，基于hugo及github，建设个人网站。</p>
+<ul>
+<li>
+<p>第一步，安装hugo
+安装最新版hugo，https://github.com/gohugoio/hugo/releases</p>
+</li>
+<li>
+<p>第二步，安装Visual Studio Code</p>
+</li>
+<li>
+<p>第三步，安装Git，https://git-scm.com/download/win</p>
+</li>
+</ul>
+<p>git config &ndash;global user.name &ldquo;Reardon&rdquo;
+git config &ndash;global user.email &ldquo;<a href="mailto:reardonyang@gmail.com">reardonyang@gmail.com</a>&rdquo;</p>
+<p>cd reardonyang.com</p>
+<p>git init</p>
+<p>git add .</p>
+<p>git commit -m &ldquo;备注&rdquo;</p>
+<p>git push -u origin master</p>
+<p>git remote add origin <a href="https://github.com/ReardonYang/ReardonYang.github.io.git">https://github.com/ReardonYang/ReardonYang.github.io.git</a></p>
+<ul>
+<li>常用命令：</li>
+</ul>
+<hr>
+
+</content>
+<p>
+  
+  <a href="https://reardonyang.com/blog/%E6%93%8D%E4%BD%9C%E6%95%99%E7%A8%8B/">#操作教程</a>
+  
+</p>
+
+  </main>
+  <footer>Powered By <a href="https://reardonyang.com/">💖ReardonYang</a>
+</footer>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://reardonyang.com/images/favicon.png" />
+<title>使用Umbrel搭建比特币节点 | 杨靖武</title>
+<meta name="title" content="使用Umbrel搭建比特币节点" />
+<meta name="description" content="─=≡Σ( つ₿ ω ₿)つ下图是搭建好之后的样子： 注：搭建比特币节点有多种方式，本教程采用树莓派 &#43; Umbrel的方式进行搭建，无任何技术门槛。这种搭建方式的好处很多，包括足够独立，节能，稳定，安全，数据完全自我控制，界面美观（可视化界面），此外，可玩性极强，Umbrel提供比特币应用商店，提供闪电网络、区块链浏览器等各类应用，大大降低普通用户进入比特币生态的门槛，相信大家在探索一番后，也会对Umbrel的强大之处深有体会！
+再来一张图：
+搭建好后，支持转账、收款等常规操作，以及查看比特币余额、转账记录、区块高度、当前全网算力值、全节点所占硬盘空间大小等一系列信息，更多功能，请自行探索！
+好了，下面正式开始教程：
+使用Umbrel搭建比特币全节点，需要以下几个步骤：
+准备/购买所需设备； 等待到货； 准备就绪； 下载Umbrel和Balena Etcher； 在microSD存储卡中安装/写入Umbrel； 连接设备； 完成； 以下为详细步骤：
+1.准备/购买所需设备👀 如果人在中国境内，以下设备均可在淘宝找到，请选择评价较好，交易数量相对较多的店铺，尽量选择天猫店，在国外则选择亚马逊购买即可：
+树莓派（型号为4B）（附带电源，电源请强烈建议选择官方版本），国内上淘宝，国外亚马逊； 树莓派外壳，注意要与树莓派型号一致（一般会附带有树莓派散热片）； 1TB固态硬盘； 固态硬盘盒子； 16GB容量以上microSD存储卡； microSD存储卡读卡器； 网线； 电脑，Windows电脑和苹果电脑均可； 2.等待到货 下单购买以上设备后，就耐心等待吧，等待将它们一件件从快递小哥那领回家。在等待期间，你可以通过以下事情打发时光：
+阅读：比特币白皮书 | 下载 关注我：Twitter || 豆瓣 ； 阅读我写的关于比特币的文章； 关注：Michael Saylor 和 Andreas M. Antonopoulos； 睡觉 💤 3.准备就绪 拿到买到所有的所有设备后，就可以开始搭建全节点了：
+先给树莓派套上外壳，贴上散热片（此为可选项，没有散热片也可），拧上螺丝； 将microSD存储卡插入到读卡器中，然后插到电脑上； 4.下载Umbrel和Balena Etcher 分别下载Umbrel和Balena Etcher
+下载后，安装Balena Etcher。
+注：上图为笔者所使用的版本，点击以上链接后，可直接下载最新版本，使用方法一样。
+5.在microSD存储卡中安装/写入Umbrel 只要三步，即可通过Balena Etcher将Umbrel写入到存储卡中：
+打开Balena Etcher，按下图所示，选择Flash from file，然后选择已经下载好的Umbrel-os-xxx.zip文件； 点击Select target，选择已经插入到电脑上的microSD存储卡设备； 点击Flash.（安装/写入过程需消耗数分钟） 安装/写入完成后，即可将microSD存储卡从读卡器中取出。" />
+<meta name="keywords" content="操作教程,比特币," />
+
+
+<meta property="og:title" content="使用Umbrel搭建比特币节点" />
+<meta property="og:description" content="─=≡Σ( つ₿ ω ₿)つ下图是搭建好之后的样子： 注：搭建比特币节点有多种方式，本教程采用树莓派 &#43; Umbrel的方式进行搭建，无任何技术门槛。这种搭建方式的好处很多，包括足够独立，节能，稳定，安全，数据完全自我控制，界面美观（可视化界面），此外，可玩性极强，Umbrel提供比特币应用商店，提供闪电网络、区块链浏览器等各类应用，大大降低普通用户进入比特币生态的门槛，相信大家在探索一番后，也会对Umbrel的强大之处深有体会！
+再来一张图：
+搭建好后，支持转账、收款等常规操作，以及查看比特币余额、转账记录、区块高度、当前全网算力值、全节点所占硬盘空间大小等一系列信息，更多功能，请自行探索！
+好了，下面正式开始教程：
+使用Umbrel搭建比特币全节点，需要以下几个步骤：
+准备/购买所需设备； 等待到货； 准备就绪； 下载Umbrel和Balena Etcher； 在microSD存储卡中安装/写入Umbrel； 连接设备； 完成； 以下为详细步骤：
+1.准备/购买所需设备👀 如果人在中国境内，以下设备均可在淘宝找到，请选择评价较好，交易数量相对较多的店铺，尽量选择天猫店，在国外则选择亚马逊购买即可：
+树莓派（型号为4B）（附带电源，电源请强烈建议选择官方版本），国内上淘宝，国外亚马逊； 树莓派外壳，注意要与树莓派型号一致（一般会附带有树莓派散热片）； 1TB固态硬盘； 固态硬盘盒子； 16GB容量以上microSD存储卡； microSD存储卡读卡器； 网线； 电脑，Windows电脑和苹果电脑均可； 2.等待到货 下单购买以上设备后，就耐心等待吧，等待将它们一件件从快递小哥那领回家。在等待期间，你可以通过以下事情打发时光：
+阅读：比特币白皮书 | 下载 关注我：Twitter || 豆瓣 ； 阅读我写的关于比特币的文章； 关注：Michael Saylor 和 Andreas M. Antonopoulos； 睡觉 💤 3.准备就绪 拿到买到所有的所有设备后，就可以开始搭建全节点了：
+先给树莓派套上外壳，贴上散热片（此为可选项，没有散热片也可），拧上螺丝； 将microSD存储卡插入到读卡器中，然后插到电脑上； 4.下载Umbrel和Balena Etcher 分别下载Umbrel和Balena Etcher
+下载后，安装Balena Etcher。
+注：上图为笔者所使用的版本，点击以上链接后，可直接下载最新版本，使用方法一样。
+5.在microSD存储卡中安装/写入Umbrel 只要三步，即可通过Balena Etcher将Umbrel写入到存储卡中：
+打开Balena Etcher，按下图所示，选择Flash from file，然后选择已经下载好的Umbrel-os-xxx.zip文件； 点击Select target，选择已经插入到电脑上的microSD存储卡设备； 点击Flash.（安装/写入过程需消耗数分钟） 安装/写入完成后，即可将microSD存储卡从读卡器中取出。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://reardonyang.com/%E4%BD%BF%E7%94%A8umbrel%E6%90%AD%E5%BB%BA%E6%AF%94%E7%89%B9%E5%B8%81%E8%8A%82%E7%82%B9/" /><meta property="og:image" content="https://reardonyang.com/images/share.jpg"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2021-10-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-10-31T00:00:00+00:00" /><meta property="og:site_name" content="杨靖武" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://reardonyang.com/images/share.jpg"/>
+
+<meta name="twitter:title" content="使用Umbrel搭建比特币节点"/>
+<meta name="twitter:description" content="─=≡Σ( つ₿ ω ₿)つ下图是搭建好之后的样子： 注：搭建比特币节点有多种方式，本教程采用树莓派 &#43; Umbrel的方式进行搭建，无任何技术门槛。这种搭建方式的好处很多，包括足够独立，节能，稳定，安全，数据完全自我控制，界面美观（可视化界面），此外，可玩性极强，Umbrel提供比特币应用商店，提供闪电网络、区块链浏览器等各类应用，大大降低普通用户进入比特币生态的门槛，相信大家在探索一番后，也会对Umbrel的强大之处深有体会！
+再来一张图：
+搭建好后，支持转账、收款等常规操作，以及查看比特币余额、转账记录、区块高度、当前全网算力值、全节点所占硬盘空间大小等一系列信息，更多功能，请自行探索！
+好了，下面正式开始教程：
+使用Umbrel搭建比特币全节点，需要以下几个步骤：
+准备/购买所需设备； 等待到货； 准备就绪； 下载Umbrel和Balena Etcher； 在microSD存储卡中安装/写入Umbrel； 连接设备； 完成； 以下为详细步骤：
+1.准备/购买所需设备👀 如果人在中国境内，以下设备均可在淘宝找到，请选择评价较好，交易数量相对较多的店铺，尽量选择天猫店，在国外则选择亚马逊购买即可：
+树莓派（型号为4B）（附带电源，电源请强烈建议选择官方版本），国内上淘宝，国外亚马逊； 树莓派外壳，注意要与树莓派型号一致（一般会附带有树莓派散热片）； 1TB固态硬盘； 固态硬盘盒子； 16GB容量以上microSD存储卡； microSD存储卡读卡器； 网线； 电脑，Windows电脑和苹果电脑均可； 2.等待到货 下单购买以上设备后，就耐心等待吧，等待将它们一件件从快递小哥那领回家。在等待期间，你可以通过以下事情打发时光：
+阅读：比特币白皮书 | 下载 关注我：Twitter || 豆瓣 ； 阅读我写的关于比特币的文章； 关注：Michael Saylor 和 Andreas M. Antonopoulos； 睡觉 💤 3.准备就绪 拿到买到所有的所有设备后，就可以开始搭建全节点了：
+先给树莓派套上外壳，贴上散热片（此为可选项，没有散热片也可），拧上螺丝； 将microSD存储卡插入到读卡器中，然后插到电脑上； 4.下载Umbrel和Balena Etcher 分别下载Umbrel和Balena Etcher
+下载后，安装Balena Etcher。
+注：上图为笔者所使用的版本，点击以上链接后，可直接下载最新版本，使用方法一样。
+5.在microSD存储卡中安装/写入Umbrel 只要三步，即可通过Balena Etcher将Umbrel写入到存储卡中：
+打开Balena Etcher，按下图所示，选择Flash from file，然后选择已经下载好的Umbrel-os-xxx.zip文件； 点击Select target，选择已经插入到电脑上的microSD存储卡设备； 点击Flash.（安装/写入过程需消耗数分钟） 安装/写入完成后，即可将microSD存储卡从读卡器中取出。"/>
+
+
+
+<meta itemprop="name" content="使用Umbrel搭建比特币节点">
+<meta itemprop="description" content="─=≡Σ( つ₿ ω ₿)つ下图是搭建好之后的样子： 注：搭建比特币节点有多种方式，本教程采用树莓派 &#43; Umbrel的方式进行搭建，无任何技术门槛。这种搭建方式的好处很多，包括足够独立，节能，稳定，安全，数据完全自我控制，界面美观（可视化界面），此外，可玩性极强，Umbrel提供比特币应用商店，提供闪电网络、区块链浏览器等各类应用，大大降低普通用户进入比特币生态的门槛，相信大家在探索一番后，也会对Umbrel的强大之处深有体会！
+再来一张图：
+搭建好后，支持转账、收款等常规操作，以及查看比特币余额、转账记录、区块高度、当前全网算力值、全节点所占硬盘空间大小等一系列信息，更多功能，请自行探索！
+好了，下面正式开始教程：
+使用Umbrel搭建比特币全节点，需要以下几个步骤：
+准备/购买所需设备； 等待到货； 准备就绪； 下载Umbrel和Balena Etcher； 在microSD存储卡中安装/写入Umbrel； 连接设备； 完成； 以下为详细步骤：
+1.准备/购买所需设备👀 如果人在中国境内，以下设备均可在淘宝找到，请选择评价较好，交易数量相对较多的店铺，尽量选择天猫店，在国外则选择亚马逊购买即可：
+树莓派（型号为4B）（附带电源，电源请强烈建议选择官方版本），国内上淘宝，国外亚马逊； 树莓派外壳，注意要与树莓派型号一致（一般会附带有树莓派散热片）； 1TB固态硬盘； 固态硬盘盒子； 16GB容量以上microSD存储卡； microSD存储卡读卡器； 网线； 电脑，Windows电脑和苹果电脑均可； 2.等待到货 下单购买以上设备后，就耐心等待吧，等待将它们一件件从快递小哥那领回家。在等待期间，你可以通过以下事情打发时光：
+阅读：比特币白皮书 | 下载 关注我：Twitter || 豆瓣 ； 阅读我写的关于比特币的文章； 关注：Michael Saylor 和 Andreas M. Antonopoulos； 睡觉 💤 3.准备就绪 拿到买到所有的所有设备后，就可以开始搭建全节点了：
+先给树莓派套上外壳，贴上散热片（此为可选项，没有散热片也可），拧上螺丝； 将microSD存储卡插入到读卡器中，然后插到电脑上； 4.下载Umbrel和Balena Etcher 分别下载Umbrel和Balena Etcher
+下载后，安装Balena Etcher。
+注：上图为笔者所使用的版本，点击以上链接后，可直接下载最新版本，使用方法一样。
+5.在microSD存储卡中安装/写入Umbrel 只要三步，即可通过Balena Etcher将Umbrel写入到存储卡中：
+打开Balena Etcher，按下图所示，选择Flash from file，然后选择已经下载好的Umbrel-os-xxx.zip文件； 点击Select target，选择已经插入到电脑上的microSD存储卡设备； 点击Flash.（安装/写入过程需消耗数分钟） 安装/写入完成后，即可将microSD存储卡从读卡器中取出。"><meta itemprop="datePublished" content="2021-10-31T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-10-31T00:00:00+00:00" />
+<meta itemprop="wordCount" content="92"><meta itemprop="image" content="https://reardonyang.com/images/share.jpg"/>
+<meta itemprop="keywords" content="操作教程,比特币," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>杨靖武</h2>
+</a>
+<nav><a href="/">首页</a>
+
+<a href="/category/">分类</a>
+
+<a href="/plan/">计划</a>
+
+<a href="/tool/">工具</a>
+
+<a href="/copyright/">版权</a>
+
+
+<a href="/blog">全部文章</a>
+
+</nav>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NSSE83FXH4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NSSE83FXH4');
+</script></header>
+  <main>
+
+<h1>使用Umbrel搭建比特币节点</h1>
+<p>
+  <i>
+    <time datetime='2021-10-31' pubdate>
+      2021-10-31
+    </time>
+  </i>
+</p>
+
+<content>
+  <h2 id="σ-つ-ω-つ下图是搭建好之后的样子">─=≡Σ( つ₿ ω ₿)つ下图是搭建好之后的样子：</h2>
+<p><img src="/images/build-your-personal-bitcoin-node/introduce1.png" alt="introduce1"></p>
+<p>注：搭建比特币节点有多种方式，本教程采用<strong>树莓派 + Umbrel</strong>的方式进行搭建，<strong>无任何技术门槛</strong>。这种搭建方式的好处很多，包括<strong>足够独立，节能，稳定，安全，数据完全自我控制，界面美观（可视化界面）</strong>，此外，可玩性极强，Umbrel提供比特币应用商店，提供闪电网络、区块链浏览器等各类应用，<strong>大大降低普通用户进入比特币生态的门槛</strong>，相信大家在探索一番后，也会对Umbrel的<strong>强大</strong>之处深有体会！</p>
+<p><strong>再来</strong>一张图：</p>
+<p><img src="/images/build-your-personal-bitcoin-node/introduce2.png" alt="introduce2"></p>
+<p><strong>搭建好后，支持转账、收款等常规操作，以及查看比特币余额、转账记录、区块高度、当前全网算力值、全节点所占硬盘空间大小等一系列信息，更多功能，请自行探索！</strong></p>
+<p><strong>好了，下面正式开始教程：</strong></p>
+<hr>
+<p><strong>使用Umbrel搭建比特币全节点，需要以下几个步骤：</strong></p>
+<ol>
+<li>准备/购买所需设备；</li>
+<li>等待到货；</li>
+<li>准备就绪；</li>
+<li>下载<strong>Umbrel和Balena Etcher</strong>；</li>
+<li>在microSD存储卡中<strong>安装/写入Umbrel</strong>；</li>
+<li>连接设备；</li>
+<li>完成；</li>
+</ol>
+<p><strong>以下为详细步骤：</strong></p>
+<hr>
+<h2 id="1准备购买所需设备">1.准备/购买所需设备👀</h2>
+<p>如果人在中国境内，以下设备均可在淘宝找到，请选择评价较好，交易数量相对较多的店铺，尽量选择天猫店，在国外则选择亚马逊购买即可：</p>
+<ul>
+<li>树莓派（型号为4B）（附带电源，电源请强烈建议选择<strong>官方版本</strong>），国内上淘宝，国外亚马逊；</li>
+<li>树莓派外壳，注意要与树莓派型号一致（一般会附带有树莓派散热片）；</li>
+<li>1TB固态硬盘；</li>
+<li>固态硬盘盒子；</li>
+<li>16GB容量以上microSD存储卡；</li>
+<li>microSD存储卡<strong>读卡器</strong>；</li>
+<li>网线；</li>
+<li>电脑，<strong>Windows电脑和苹果电脑均可</strong>；</li>
+</ul>
+<hr>
+<h2 id="2等待到货">2.等待到货</h2>
+<p>下单购买以上设备后，就<strong>耐心等待</strong>吧，等待将它们一件件从快递小哥那领回家。在等待期间，你可以通过以下事情<strong>打发时光</strong>：</p>
+<ul>
+<li>阅读：<a href="https://github.com/ReardonYang/ReardonYang.github.io/blob/master/bitcoin.pdf">比特币白皮书</a>
+<img src="/images/build-your-personal-bitcoin-node/bitcoin-paper.png" alt="bitcoin-paper"> | <a href="https://github.com/ReardonYang/ReardonYang.github.io/raw/master/bitcoin.pdf">下载</a></li>
+<li>关注我：<a href="https://twitter.com/ReardonYang">Twitter</a> || <a href="https://www.douban.com/people/57644512/">豆瓣</a> ；</li>
+<li><strong>阅读</strong>我写的<a href="https://reardonyang.com/blog/">关于比特币的文章</a>；</li>
+<li>关注：<a href="https://twitter.com/saylor">Michael Saylor</a> 和 <a href="https://twitter.com/aantonop">Andreas M. Antonopoulos</a>；</li>
+<li><strong>睡觉</strong> 💤</li>
+</ul>
+<hr>
+<h2 id="3准备就绪">3.准备就绪</h2>
+<p><img src="/images/build-your-personal-bitcoin-node/get-pi.png" alt="get-pi"></p>
+<p>拿到买到<strong>所有的所有设备</strong>后，就可以开始搭建全节点了：</p>
+<ul>
+<li>先给树莓派套上外壳，贴上散热片（此为可选项，<strong>没有散热片也可</strong>），拧上螺丝；</li>
+<li>将microSD存储卡插入到读卡器中，然后<strong>插到电脑上</strong>；</li>
+</ul>
+<hr>
+<h2 id="4下载umbrel和balena-etcher">4.下载Umbrel和Balena Etcher</h2>
+<p>分别下载<a href="https://github.com/getumbrel/umbrel-os/releases/">Umbrel</a>和<a href="https://www.balena.io/etcher/">Balena Etcher</a></p>
+<p><img src="/images/build-your-personal-bitcoin-node/down-software.png" alt="down-software"></p>
+<p>下载后，安装Balena Etcher。</p>
+<p><strong>注：上图为笔者所使用的版本，点击以上链接后，可直接下载最新版本，使用方法一样。</strong></p>
+<hr>
+<h2 id="5在microsd存储卡中安装写入umbrel">5.在microSD存储卡中安装/写入Umbrel</h2>
+<p>只要<strong>三步</strong>，即可通过Balena Etcher将Umbrel写入到存储卡中：</p>
+<ul>
+<li>打开Balena Etcher，按下图所示，选择Flash from file，然后选择已经<strong>下载好的</strong>Umbrel-os-xxx.zip文件；
+<img src="/images/build-your-personal-bitcoin-node/balena.png" alt="balena"></li>
+<li>点击Select target，选择已经插入到电脑上的microSD存储卡设备；</li>
+<li>点击Flash.（安装/写入过程需消耗数分钟）</li>
+</ul>
+<p>安装/写入完成后，即可将microSD存储卡<strong>从读卡器中取出</strong>。</p>
+<hr>
+<h2 id="6连接设备">6.连接设备</h2>
+<p>好了，接下来，把<strong>所有设备连接</strong>起来吧！</p>
+<ul>
+<li>将microSD卡正确插入到树莓派microSD<strong>卡槽</strong>；</li>
+<li>将固态硬盘放入到固态硬盘盒子中，然后通过USB数据线连接到树莓派上；</li>
+<li>将树莓派<strong>通过网线与路由器</strong>连接起来；</li>
+<li>将电源线与树莓派连接；</li>
+<li><strong>通电！</strong> ⚡⚡⚡</li>
+</ul>
+<hr>
+<h2 id="7完成">7.完成</h2>
+<p>接下来，缓一缓，上个洗手间，吃个橘子，5到10分钟后，在电脑或移动设备（<strong>设备需与树莓派在同一个网络</strong>）浏览器中，输入并访问:<code>http://umbrel.local/</code>，通往<strong>新世界的大门</strong>在你面前打开😃😃😃</p>
+<p><img src="/images/build-your-personal-bitcoin-node/new-umbrel.png" alt="new-umbrel"></p>
+<hr>
+<p>注：如果输入<code>http://umbrel.local/</code>后，<strong>始终打不开以上界面</strong>，请下载并使用<a href="https://angryip.org/">Angry IP</a>，找到已经安装好的Umbrel的IP地址，并在浏览器中直接输入该地址（例如 http://192.168.69.420）。</p>
+<p>注：按照Umbrel界面的提示信息，完成<strong>密钥备份</strong>后，节点即开始进行同步。如果你需要配置闪电网络，或者Mempool区块链浏览器，需等待节点<strong>同步完成</strong>，大约需要<strong>1个周左右</strong>时间。</p>
+<p>注：如果你在<strong>中国大陆境</strong>内，按照以上步骤正确操作后，设备一直无法开始进行节点同步，则可能是网络封锁问题，此时，可能需要将路由器进行<strong>科学上网</strong>。</p>
+<hr>
+<p><strong>💖 搭建节点过程中，有任何问题想要寻求帮助，请通过 <a href="https://twitter.com/ReardonYang">Twitter</a> || <a href="https://www.douban.com/people/57644512/">豆瓣</a> 联系我 ；</strong></p>
+<hr>
+
+</content>
+<p>
+  
+  <a href="https://reardonyang.com/blog/%E6%93%8D%E4%BD%9C%E6%95%99%E7%A8%8B/">#操作教程</a>
+  
+  <a href="https://reardonyang.com/blog/%E6%AF%94%E7%89%B9%E5%B8%81/">#比特币</a>
+  
+</p>
+
+  </main>
+  <footer>Powered By <a href="https://reardonyang.com/">💖ReardonYang</a>
+</footer>
+
+    
+</body>
+
+</html>
