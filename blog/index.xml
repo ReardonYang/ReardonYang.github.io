@@ -14,18 +14,81 @@
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://reardonyang.com/%E5%9F%BA%E4%BA%8Ehugo%E5%8F%8Agithub%E5%BB%BA%E8%AE%BE%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</guid>
-      <description>以下教程适用于Windows系统下，基于hugo及github，建设个人网站。
-第一步，安装hugo 安装最新版hugo，https://github.com/gohugoio/hugo/releases
-第二步，安装Visual Studio Code
-第三步，安装Git，https://git-scm.com/download/win
-git config &amp;ndash;global user.name &amp;ldquo;Reardon&amp;rdquo; git config &amp;ndash;global user.email &amp;ldquo;reardonyang@gmail.com&amp;rdquo;
-常用命令： cd reardonyang.com
-git init
-git remote add origin https://github.com/ReardonYang/ReardonYang.github.io.git
-git pull origin master
-git add .
-git commit -m &amp;ldquo;备注&amp;rdquo;
-git push -u origin master</description>
+      <description>注意：以下教程适用于在Windows系统下，基于hugo及github，建设个人网站。
+&amp;ndash;
+第一步，安装并配置hugo 1.下载hugo 下载最新版hugo：点击下载
+2.建立目录 下载好后，解压。在D盘建立Hugo文件夹，并把解压后出现的hugo.exe文件放在bin目录下。
+3.配置环境变量&amp;ndash;&amp;gt;系统变量 下载完成后，需要配置path，按下键盘组合键Win+S键，输入path，点击“编辑系统环境变量”，此时弹出“系统属性弹窗”，点击弹窗右下角“环境变量”，出现“环境变量弹窗”，在下方“系统变量（S）”弹窗，双击“Path”这一行，此时出现“编辑环境变量”弹窗，点击“新建”按钮，将前面hugo.exe的路径（形如：D:\Hugo\bin）粘贴进去。然后依次点击“确认”按钮，共点击三次。
+4.验证 验证是否安装并配置成功，按下键盘组合键Win+R键，出现“运行”弹窗，在弹窗中输入“CMD”，点击确认，出现“命令提示符”窗口，输入D：，按下回车键，然后输入cd hugo/bin,然后输入hugo version,出现类似：hugo v0.110.0-e32a493b7000000763c3b79623952e6254000000+extended windows/amd64 BuildDate=2023-01-17T12:16:09Z VendorInfo=gohugoio的信息，即代表安装成功。
+至此，完成安装并配置hugo。 &amp;ndash;
+第二步，安装Visual Studio Code 下载最新版Visual Studio Code：点击下载
+下载完成后，直接双击安装。建议安装在D盘，一路点击确认和下一步，选择默认配置即可。
+至此，完成安装并配置Visual Studio Code. &amp;ndash;
+第三步，安装并配置Git 1.下载Git 下载最新版Git：点击下载
+下载完成后，直接双击安装。建议安装在D盘，一路点击确认和下一步，选择默认配置即可。
+2.配置Git 在以上步骤出现的“命令提示符”窗口，输入git config --global user.name &amp;quot;Jack&amp;quot;，（请将“Jack”替换为自己的用户名）然后按下回车键。
+再输入git config --global user.email &amp;quot;Jack@gmail.com&amp;quot;，（请将“Jack@gmail.com”替换为自己的邮箱地址）然后按下回车键。
+至此，完成安装并配置Git. &amp;ndash;
+第四步，网站初始化及配置模板 1.网站初始化 这里我们以在D盘创建个人网站仓库文件夹为例，在“命令提示符”窗口，输入D：，按下回车键，然后输入hugo new site jack.com，（请将“jack.com”替换为自己想要命名的仓库名称，建议使用英文），然后按下回车键。
+出现类似以下文字，即代表网站初始化成功。
+Congratulations! Your new Hugo site is created in D:\jack.com.
+Just a few more steps and you&#39;re ready to go:</description>
+    </item>
+    
+    <item>
+      <title>旷野</title>
+      <link>https://reardonyang.com/%E6%97%B7%E9%87%8E/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E6%97%B7%E9%87%8E/</guid>
+      <description>有内生的锚，与外在无关。——这就是最理想的状态。
+白的，灰的，黄的，灰头土脸，全都彷佛矮了一截，瘦了一圈。
+在天台上，向四周望去，反倒能看清城市的底色，一栋栋建筑，高高低低，静静的矗立着，不像平时在楼下仰望着时那般巨大和光鲜。
+鸣笛声也远了，满眼是摩肩接踵，簸箕大的车顶盖，排列着，蠕动着，像是被无形的铁链牵引着向前，显得有些可笑，走走停停，机械蠢物。
+什么时候你能静悄悄安顿下这身破铜烂铁，这只心猿意马，什么时候你就到旷野了。</description>
+    </item>
+    
+    <item>
+      <title>站台</title>
+      <link>https://reardonyang.com/%E7%AB%99%E5%8F%B0/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E7%AB%99%E5%8F%B0/</guid>
+      <description>我回忆过去，不代表我对过去的怀念，也不代表我对现在的抗拒，它是代表我越来越麻木，越来越远离自己的本质。
+满眼望去，全是合理和方法。而我的本质和大多数人一样，也是下三滥，酒囊饭盒。
+所以，在这样清醒真实的时候，就只能回忆记忆中的过去，记忆中的寒冬和泥泞，记忆中的闷热和阴雨。
+一切都在变，唯一不变的是记忆。在记忆中，我随时能给自己来上一针，然后再次来到那个通往一切道路的站台。
+但我还是忘记了很多，忘记了很多细节。这些细节，才能拼凑出更加完整的我，这是一条多么艰难的路。
+获取意义，流失细节。最终这个谎言，会越来越浑然天成。</description>
+    </item>
+    
+    <item>
+      <title>相杀</title>
+      <link>https://reardonyang.com/%E7%9B%B8%E6%9D%80/</link>
+      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E7%9B%B8%E6%9D%80/</guid>
+      <description>一直以来，我一直维持着相当低程度的社交，其实是相当于没有社交。结果是，我找不到任何参照系，我也不太真正能理解他人的生活。我的知识来源于书本，来源于古人，来源于大多数现实生活的逃离者。
+在人群中，却又在人群之外，我始终像一只蛆虫，来来去去，浑浑噩噩。</description>
+    </item>
+    
+    <item>
+      <title>萤火</title>
+      <link>https://reardonyang.com/%E8%90%A4%E7%81%AB/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E8%90%A4%E7%81%AB/</guid>
+      <description>委屈 暑假，爸妈因为什么事，又在家里吵架了，拿上mp4，几本书，简单的几件衣服，我就离开了，到婆婆家。那时候我想：他们为什么不直接离婚，省去多少烦恼。
+在婆婆家玩了几天，看电子书，晒太阳，也会做点农活，爸妈找过来了，要带我回家。
+婆婆带着笑，说：孩子肯定是受委屈了。
+一直记得婆婆的这句话。
+&amp;ndash;
+中秋 夏天的夜里，躁热难耐，我们在空地上奔跑着，追赶萤火虫，从一堆干草垛，跳到另一堆干草垛。
+我想到：亲人们，等到了中秋节，肯定也会是像这样的一个夜晚，安静又热闹，平凡又深刻，我们来赏月，该多好。
+&amp;ndash;
+羽毛 快放寒假了，内蒙的天，睛朗起来是望不到尽头的蓝，层层叠叠的羽毛云。妈很早就给我打电话，说店里来了过来帮忙的小帮手，让我快点回来，接连四个周，五个周，老妈一直念叨着这件事。于是回到家，见到了久违的戴毛线帽的小孩。
+&amp;ndash;
+回过头来，看已经过去的这些时光，有那么多的感动。微小，却挺拔，像一座座的灯塔。那些过去了的人，逝去了的心事，如此的让人感伤，怀恋。但是，他们曾经都是，那样不值一提的瞬息。</description>
     </item>
     
     <item>

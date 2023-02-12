@@ -14,18 +14,25 @@
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://reardonyang.com/%E5%9F%BA%E4%BA%8Ehugo%E5%8F%8Agithub%E5%BB%BA%E8%AE%BE%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</guid>
-      <description>以下教程适用于Windows系统下，基于hugo及github，建设个人网站。
-第一步，安装hugo 安装最新版hugo，https://github.com/gohugoio/hugo/releases
-第二步，安装Visual Studio Code
-第三步，安装Git，https://git-scm.com/download/win
-git config &amp;ndash;global user.name &amp;ldquo;Reardon&amp;rdquo; git config &amp;ndash;global user.email &amp;ldquo;reardonyang@gmail.com&amp;rdquo;
-常用命令： cd reardonyang.com
-git init
-git remote add origin https://github.com/ReardonYang/ReardonYang.github.io.git
-git pull origin master
-git add .
-git commit -m &amp;ldquo;备注&amp;rdquo;
-git push -u origin master</description>
+      <description>注意：以下教程适用于在Windows系统下，基于hugo及github，建设个人网站。
+&amp;ndash;
+第一步，安装并配置hugo 1.下载hugo 下载最新版hugo：点击下载
+2.建立目录 下载好后，解压。在D盘建立Hugo文件夹，并把解压后出现的hugo.exe文件放在bin目录下。
+3.配置环境变量&amp;ndash;&amp;gt;系统变量 下载完成后，需要配置path，按下键盘组合键Win+S键，输入path，点击“编辑系统环境变量”，此时弹出“系统属性弹窗”，点击弹窗右下角“环境变量”，出现“环境变量弹窗”，在下方“系统变量（S）”弹窗，双击“Path”这一行，此时出现“编辑环境变量”弹窗，点击“新建”按钮，将前面hugo.exe的路径（形如：D:\Hugo\bin）粘贴进去。然后依次点击“确认”按钮，共点击三次。
+4.验证 验证是否安装并配置成功，按下键盘组合键Win+R键，出现“运行”弹窗，在弹窗中输入“CMD”，点击确认，出现“命令提示符”窗口，输入D：，按下回车键，然后输入cd hugo/bin,然后输入hugo version,出现类似：hugo v0.110.0-e32a493b7000000763c3b79623952e6254000000+extended windows/amd64 BuildDate=2023-01-17T12:16:09Z VendorInfo=gohugoio的信息，即代表安装成功。
+至此，完成安装并配置hugo。 &amp;ndash;
+第二步，安装Visual Studio Code 下载最新版Visual Studio Code：点击下载
+下载完成后，直接双击安装。建议安装在D盘，一路点击确认和下一步，选择默认配置即可。
+至此，完成安装并配置Visual Studio Code. &amp;ndash;
+第三步，安装并配置Git 1.下载Git 下载最新版Git：点击下载
+下载完成后，直接双击安装。建议安装在D盘，一路点击确认和下一步，选择默认配置即可。
+2.配置Git 在以上步骤出现的“命令提示符”窗口，输入git config --global user.name &amp;quot;Jack&amp;quot;，（请将“Jack”替换为自己的用户名）然后按下回车键。
+再输入git config --global user.email &amp;quot;Jack@gmail.com&amp;quot;，（请将“Jack@gmail.com”替换为自己的邮箱地址）然后按下回车键。
+至此，完成安装并配置Git. &amp;ndash;
+第四步，网站初始化及配置模板 1.网站初始化 这里我们以在D盘创建个人网站仓库文件夹为例，在“命令提示符”窗口，输入D：，按下回车键，然后输入hugo new site jack.com，（请将“jack.com”替换为自己想要命名的仓库名称，建议使用英文），然后按下回车键。
+出现类似以下文字，即代表网站初始化成功。
+Congratulations! Your new Hugo site is created in D:\jack.com.
+Just a few more steps and you&#39;re ready to go:</description>
     </item>
     
     <item>
