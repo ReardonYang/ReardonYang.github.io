@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on 杨靖武</title>
+    <title>Blog on Reardon</title>
     <link>https://reardonyang.com/blog/</link>
-    <description>Recent content in Blog on 杨靖武</description>
+    <description>Recent content in Blog on Reardon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright © 2021, Reardon Yang.</copyright>
@@ -15,9 +15,10 @@
       
       <guid>https://reardonyang.com/%E5%A5%BD%E7%94%A8%E7%9A%84%E6%A2%AF%E5%AD%90/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/%E7%BF%BB%E5%A2%99%E5%88%A9%E5%99%A8%E6%8E%A8%E8%8D%90/</guid>
       <description>注：以下内容仅适用于中国大陆地区用户
-一、Lantern蓝灯 把Lantern放在第一位的原因很简单，它可以在你彻底与外网断开，或者在一台崭新的电脑上，不具备任何翻墙条件的情况下,从github上下载下来，无需复杂配置，安装即用。Lantern提供免费流量，每月1G流量，你也可以购买付费版本，我个人不推荐购买，因为有更实惠，更稳定的选择。
-在很多情况下，当我在使用新电脑，或者别人的电脑，需要立即访问外网，我往往会打开Github，输入Lantern，下载安装后使用。注：iOS版本需要有非国区（美区/港区）账号。
-所支持操作系统：iOS、MacOS、Windows、Android均支持。
+一、Lantern蓝灯 把Lantern放在第一位的原因很简单，它可以在你彻底与外网断开，或者在一台崭新电脑上，不具备任何翻墙条件情况下，从Github下载，无需复杂配置，安装即用。Lantern提供免费流量，每月1G流量，你也可以购买付费版本，我个人不推荐购买，因为有更实惠，更稳定的选择。
+在很多情况下，当我在使用他人的电脑，需要立即访问外网，我往往会打开Github，搜索Lantern，安装即用。
+注：iOS版本需要有非国区（美区/港区）账号。
+所支持操作系统：iOS、MacOS、Windows、Android。
 二、ClashX &amp;amp; Shadowrocket &amp;amp; V2Ray 这里列的才是我日常使用的方案：
 iOS操作系统下，使用：Shadowrocket
 MacOS操作系统下，使用：ClashX
@@ -33,7 +34,7 @@ Android操作系统下，使用：V2RayNG
     <item>
       <title>哈耶克：知识在社会中的运用</title>
       <link>https://reardonyang.com/%E5%93%88%E8%80%B6%E5%85%8B%E7%9F%A5%E8%AF%86%E5%9C%A8%E7%A4%BE%E4%BC%9A%E4%B8%AD%E7%9A%84%E8%BF%90%E7%94%A8/</link>
-      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://reardonyang.com/%E5%93%88%E8%80%B6%E5%85%8B%E7%9F%A5%E8%AF%86%E5%9C%A8%E7%A4%BE%E4%BC%9A%E4%B8%AD%E7%9A%84%E8%BF%90%E7%94%A8/</guid>
       <description>一 当我们努力建构一种合理的经济秩序（a rational economic order）的时候，我们想解决什么问题呢？根据人们熟知的某些假设，这个问题的答案是十分简单的。假设我们拥有所有相关的信息，假设我们能够从一个给定的偏好系统（a given system of preferences）出发，又假设我们掌握了有关可资使用的手段或资源的全部知识，那么剩下的问题也就只是一个纯粹的逻辑问题了。这就是说，对什么是可资使用的手段或资源的最佳用途这个问题的答案，已经隐含在我们的上述假设之中了。解决这个最优问题（this optimum problem）所必须满足的那些条件已经完全设定了，因此我们可以经由数学的形式而得到最佳的陈述；用最简洁的话来说，这就是：任何两个商品或任何两个要素间的边际替换率（the marginal rates of substitution）在它们所有不同的用途中都必定是相同的。
