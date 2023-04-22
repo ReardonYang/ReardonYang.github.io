@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright © 2021, Reardon Yang.</copyright>
-    <lastBuildDate>Wed, 19 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://reardonyang.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -32,7 +32,7 @@
 &lt;p&gt;-📚 &lt;strong&gt;&lt;a href=&#34;https://reardonyang.com/blog/%E6%AF%94%E7%89%B9%E5%B8%81/&#34;&gt;比特币&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;-📚 &lt;strong&gt;&lt;a href=&#34;https://reardonyang.com/blog/%E6%93%8D%E4%BD%9C%E6%95%99%E7%A8%8B/&#34;&gt;操作教程&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;-📚 &lt;strong&gt;&lt;a href=&#34;https://reardonyang.com/blog/%E6%93%8D%E4%BD%9C%E6%95%99%E7%A8%8B/&#34;&gt;工具应用&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;-📚 &lt;strong&gt;&lt;a href=&#34;https://reardonyang.com/blog/%E7%B2%BE%E5%8D%8E%E8%BD%AC%E8%BD%BD/&#34;&gt;精华转载&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -87,6 +87,8 @@
 &lt;p&gt;-&amp;gt;&lt;strong&gt;日常使用工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bitcoin.org/&#34;&gt;比特币 Bitcoin：非主权货币&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.3570000.xyz/&#34;&gt;MyGPT：个人AI助理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vercel.com/&#34;&gt;Vercel：网站托管服务&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://git-scm.com/&#34;&gt;Git：版本管理工具&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://syncthing.net/&#34;&gt;Syncthing：P2P同步工具&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.expressvpn.com/&#34;&gt;ExpressVPN：科学上网工具&lt;/a&gt;&lt;/li&gt;
@@ -136,7 +138,7 @@
     <item>
       <title>Blog</title>
       <link>https://reardonyang.com/blog/</link>
-      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://reardonyang.com/blog/</guid>
       <description></description>

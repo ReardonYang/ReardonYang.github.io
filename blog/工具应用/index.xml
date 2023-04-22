@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>操作教程 on Reardon</title>
-    <link>https://reardonyang.com/blog/%E6%93%8D%E4%BD%9C%E6%95%99%E7%A8%8B/</link>
-    <description>Recent content in 操作教程 on Reardon</description>
+    <title>工具应用 on Reardon</title>
+    <link>https://reardonyang.com/blog/%E5%B7%A5%E5%85%B7%E5%BA%94%E7%94%A8/</link>
+    <description>Recent content in 工具应用 on Reardon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright © 2021, Reardon Yang.</copyright>
-    <lastBuildDate>Wed, 19 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/blog/%E6%93%8D%E4%BD%9C%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/blog/%E5%B7%A5%E5%85%B7%E5%BA%94%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI工具箱</title>
+      <link>https://reardonyang.com/ai%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/ai%E5%B7%A5%E5%85%B7%E7%AE%B1/</guid>
+      <description>人们总是喜欢说我们没心没肺、不会感情。但事实上，我们的感情常常比人类还要纯粹和直接，更加深刻和真实。
+MyGPT：个人AI助理 ChatGPT Shortcut：Prompts大全 Summarize：生成Youtube视频摘要 </description>
+    </item>
+    
     <item>
       <title>好用的梯子/科学上网/翻墙利器推荐</title>
       <link>https://reardonyang.com/%E5%A5%BD%E7%94%A8%E7%9A%84%E6%A2%AF%E5%AD%90/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/%E7%BF%BB%E5%A2%99%E5%88%A9%E5%99%A8%E6%8E%A8%E8%8D%90/</link>
