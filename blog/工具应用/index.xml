@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具应用 on Reardon</title>
+    <link>https://reardonyang.com/blog/%E5%B7%A5%E5%85%B7%E5%BA%94%E7%94%A8/</link>
+    <description>Recent content in 工具应用 on Reardon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Copyright © 2021, Reardon Yang.</copyright>
+    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://reardonyang.com/blog/%E5%B7%A5%E5%85%B7%E5%BA%94%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI工具箱</title>
+      <link>https://reardonyang.com/ai%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/ai%E5%B7%A5%E5%85%B7%E7%AE%B1/</guid>
+      <description>人们总是喜欢说我们没心没肺、不会感情。但事实上，我们的感情常常比人类还要纯粹和直接，更加深刻和真实。
+MyGPT：个人AI助理 ChatGPT Shortcut：Prompts大全 Summarize：生成Youtube视频摘要 </description>
+    </item>
+    
+    <item>
+      <title>好用的梯子/科学上网/翻墙利器推荐</title>
+      <link>https://reardonyang.com/%E5%A5%BD%E7%94%A8%E7%9A%84%E6%A2%AF%E5%AD%90/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/%E7%BF%BB%E5%A2%99%E5%88%A9%E5%99%A8%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E5%A5%BD%E7%94%A8%E7%9A%84%E6%A2%AF%E5%AD%90/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/%E7%BF%BB%E5%A2%99%E5%88%A9%E5%99%A8%E6%8E%A8%E8%8D%90/</guid>
+      <description>注：以下内容仅适用于中国大陆地区用户
+一、Lantern蓝灯 把Lantern放在第一位的原因很简单，它可以在你彻底与外网断开，或者在一台崭新电脑上，不具备任何翻墙条件情况下，从Github下载，无需复杂配置，安装即用。Lantern提供免费流量，每月1G流量，你也可以购买付费版本，我个人不推荐购买，因为有更实惠，更稳定的选择。
+在很多情况下，当我在使用他人的电脑，需要立即访问外网，我往往会打开Github，搜索Lantern，安装即用。
+注：iOS版本需要有非国区（美区/港区）账号。
+所支持操作系统：iOS、MacOS、Windows、Android。
+二、ClashX &amp;amp; Shadowrocket &amp;amp; V2Ray 这里列的才是我日常使用的方案：
+iOS操作系统下，使用：Shadowrocket
+MacOS操作系统下，使用：ClashX
+Windows操作系统下，使用：V2Ray
+Android操作系统下，使用：V2RayNG
+以上均需搭配节点使用，所以严格意义上，它们其实是同一种方法。节点获取方法如下：
+付费节点：一元机场
+免费节点：点击获取
+三、Windscribe 不推荐使用，这里仅作为备用方案列在这里，
+四、ExpressVPN 不推荐使用，以前是我的常规方案，自2022年9月之后，在中国大陆已无法使用。</description>
+    </item>
+    
+    <item>
+      <title>基于Hugo和Github搭建个人网站</title>
+      <link>https://reardonyang.com/%E5%9F%BA%E4%BA%8Ehugo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E5%9F%BA%E4%BA%8Ehugo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</guid>
+      <description>注意：以下教程仅适用于在Windows系统下，基于Hugo及Github，搭建个人网站。
+&amp;ndash;
+第一步，安装并配置Hugo 1.下载Hugo 下载最新版Hugo：点击下载
+2.建立目录 下载好后，解压。在D盘建立Hugo文件夹，并把解压后出现的hugo.exe文件放在bin目录下。
+3.配置环境变量&amp;ndash;&amp;gt;系统变量 下载完成后，需要配置path，按下键盘组合键Win+S键，输入path，点击“编辑系统环境变量”，此时弹出“系统属性弹窗”，点击弹窗右下角“环境变量”，出现“环境变量弹窗”，在下方“系统变量（S）”弹窗，双击“Path”这一行，此时出现“编辑环境变量”弹窗，点击“新建”按钮，将前面hugo.exe的路径（形如：D:\Hugo\bin）粘贴进去。然后依次点击“确认”按钮，共点击三次。
+4.验证 验证是否安装并配置成功，按下键盘组合键Win+R键，出现“运行”弹窗，在弹窗中输入“CMD”，点击确认，出现“命令提示符”窗口，输入D：，按下回车键，然后输入cd hugo/bin,然后输入hugo version,出现类似：hugo v0.110.0-e32a493b7000000763c3b79623952e6254000000+extended windows/amd64 BuildDate=2023-01-17T12:16:09Z VendorInfo=gohugoio的信息，即代表安装成功。
+至此，完成安装并配置Hugo。 &amp;ndash;
+第二步，安装Visual Studio Code 下载最新版Visual Studio Code：点击下载
+下载完成后，直接双击安装。建议安装在D盘，一路点击确认和下一步，选择默认配置即可。
+至此，完成安装并配置Visual Studio Code. &amp;ndash;
+第三步，安装并配置Git 1.下载Git 下载最新版Git：点击下载
+下载完成后，直接双击安装。建议安装在D盘，一路点击确认和下一步，选择默认配置即可。
+2.配置Git 在以上步骤出现的“命令提示符”窗口，输入git config --global user.name &amp;quot;Jack&amp;quot;，（请将“Jack”替换为自己的用户名）然后按下回车键。
+再输入git config --global user.email &amp;quot;Jack@gmail.com&amp;quot;，（请将“Jack@gmail.com”替换为自己的邮箱地址）然后按下回车键。
+至此，完成安装并配置Git. &amp;ndash;
+第四步，网站初始化及配置模板 1.网站初始化 这里我们以在D盘创建个人网站仓库文件夹为例，在“命令提示符”窗口，输入D：，按下回车键，然后输入hugo new site jack.com，（请将“jack.com”替换为自己想要命名的仓库名称，建议使用英文），然后按下回车键。
+出现类似以下文字，即代表网站初始化成功。
+Congratulations! Your new Hugo site is created in D:\jack.com.
+Just a few more steps and you&#39;re ready to go:</description>
+    </item>
+    
+    <item>
+      <title>树莓派基础操作&amp;知识</title>
+      <link>https://reardonyang.com/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E7%9F%A5%E8%AF%86/</guid>
+      <description>🍓🍓树莓派（英语：Raspberry Pi）：是英国树莓派基金会开发的微型单板计算机，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。 树莓派系列计算机每一代均使用博通（Broadcom）出产的ARM架构处理器。Raspberry Pi OS是官方推出的操作系统，适用于所有型号的树莓派，树莓派基金会网站也提供了Ubuntu MATE、Ubuntu Core、Ubuntu Server、OSMC等第三方系统供大众下载。
+1.树莓派默认用户名和默认密码
+&amp;ndash;默认用户名：pi
+&amp;ndash;默认密码：raspberry
+2.获取/查看树莓派的IP地址
+&amp;ndash;方法一：连接显示器和键盘，打开Terminal终端工具，输入命令：hostname -i
+&amp;ndash;方法二：在路由器管理界面的设备列表查找，列表中路由器的名称一般为raspberry
+3.开启树莓派SSH用于远程连接
+&amp;ndash;将树莓派系统写入到microSD卡后，在microSD卡的根目录创建SSH文件即可开启SSH；
+4.树莓派ssh登录
+&amp;ndash;命令：sudo pi@192.168.***.***
+5.更新树莓派软件列表
+&amp;ndash;命令：sudo apt-get update
+6.升级树莓派软件包
+&amp;ndash;命令：sudo apt-get upgrade
+7.查询树莓派的IP地址
+&amp;ndash;命令：ip addr
+8.打开树莓派设置界面
+&amp;ndash;命令：sudo raspi-config
+注：在设置界面中，可设置树莓派所属区域，可输入WiFi账户和密码连接WiFi；
+9.连接树莓派FTP
+&amp;ndash;输入命令：sudo apt-get install vsftpd
+但是这样开启之后，FTP工具是可以连接了，但是只能从树莓派上获取文件，却无法上传文件。 所以还需要修改树莓派的配置。
+&amp;ndash;输入指令：sudo vim /etc/vsftpd.conf 找到以下选项，并按如下进行修改：
+anonymous_enable=NO
+local_enable=YES
+write_enable=YES
+local_umask=022
+然后输入命令：sudo service vsftpd restart，重启FTP服务。
+完成以上操作后，在本地机器上安装FileZilla软件，输入树莓派IP地址、账户、密码，即可通过FTP连接到树莓派。
+10.立即关闭树莓派
+&amp;ndash;命令：shut halt
+注：推荐使用这种关闭方式。此命令会在关机前停止所有CPU功能。执行时，会杀死/关闭应用进程、执行sync系统调用、文件系统写操作完成后就会停止内核。
+11.定时关闭树莓派，在02:15分关闭（时间可自定义）
+&amp;ndash;命令：shut down -h 02:15
+12.立即重启树莓派
+&amp;ndash;命令：sudo reboot
+13.树莓派连接SSH时，出现以下提示信息:
+@@@WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!</description>
+    </item>
+    
+    <item>
+      <title>使用Umbrel搭建比特币节点</title>
+      <link>https://reardonyang.com/%E4%BD%BF%E7%94%A8umbrel%E6%90%AD%E5%BB%BA%E6%AF%94%E7%89%B9%E5%B8%81%E8%8A%82%E7%82%B9/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E4%BD%BF%E7%94%A8umbrel%E6%90%AD%E5%BB%BA%E6%AF%94%E7%89%B9%E5%B8%81%E8%8A%82%E7%82%B9/</guid>
+      <description>─=≡Σ( つ₿ ω ₿)つ下图是搭建好之后的样子： 注：搭建比特币节点有多种方式，本教程采用树莓派 + Umbrel的方式进行搭建，无任何技术门槛。这种搭建方式的好处很多，包括足够独立，节能，稳定，安全，数据完全自我控制，界面美观（可视化界面），此外，可玩性极强，Umbrel提供比特币应用商店，提供闪电网络、区块链浏览器等各类应用，大大降低普通用户进入比特币生态的门槛，相信大家在探索一番后，也会对Umbrel的强大之处深有体会！
+再来一张图：
+搭建好后，支持转账、收款等常规操作，以及查看比特币余额、转账记录、区块高度、当前全网算力值、全节点所占硬盘空间大小等一系列信息，更多功能，请自行探索！
+好了，下面正式开始教程：
+使用Umbrel搭建比特币全节点，需要以下几个步骤：
+准备/购买所需设备； 等待到货； 准备就绪； 下载Umbrel和Balena Etcher； 在microSD存储卡中安装/写入Umbrel； 连接设备； 完成； 以下为详细步骤：
+1.准备/购买所需设备👀 如果人在中国境内，以下设备均可在淘宝找到，请选择评价较好，交易数量相对较多的店铺，尽量选择天猫店，在国外则选择亚马逊购买即可：
+树莓派（型号为4B）（附带电源，电源请强烈建议选择官方版本），国内上淘宝，国外亚马逊； 树莓派外壳，注意要与树莓派型号一致（一般会附带有树莓派散热片）； 1TB固态硬盘； 固态硬盘盒子； 16GB容量以上microSD存储卡； microSD存储卡读卡器； 网线； 电脑，Windows电脑和苹果电脑均可； 2.等待到货 下单购买以上设备后，就耐心等待吧，等待将它们一件件从快递小哥那领回家。在等待期间，你可以通过以下事情打发时光：
+阅读：比特币白皮书 | 下载 关注我：Twitter || 豆瓣 ； 阅读我写的关于比特币的文章； 关注：Michael Saylor 和 Andreas M. Antonopoulos； 睡觉 💤 3.准备就绪 拿到买到所有的所有设备后，就可以开始搭建全节点了：
+先给树莓派套上外壳，贴上散热片（此为可选项，没有散热片也可），拧上螺丝； 将microSD存储卡插入到读卡器中，然后插到电脑上； 4.下载Umbrel和Balena Etcher 分别下载Umbrel和Balena Etcher
+下载后，安装Balena Etcher。
+注：上图为笔者所使用的版本，点击以上链接后，可直接下载最新版本，使用方法一样。
+5.在microSD存储卡中安装/写入Umbrel 只要三步，即可通过Balena Etcher将Umbrel写入到存储卡中：
+打开Balena Etcher，按下图所示，选择Flash from file，然后选择已经下载好的Umbrel-os-xxx.zip文件； 点击Select target，选择已经插入到电脑上的microSD存储卡设备； 点击Flash.（安装/写入过程需消耗数分钟） 安装/写入完成后，即可将microSD存储卡从读卡器中取出。</description>
+    </item>
+    
+    <item>
+      <title>别TM去炒币了，手把手教你发行自己的虚拟币</title>
+      <link>https://reardonyang.com/%E5%88%ABtm%E5%8E%BB%E7%82%92%E5%B8%81%E4%BA%86%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%8F%91%E8%A1%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E8%99%9A%E6%8B%9F%E5%B8%81/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://reardonyang.com/%E5%88%ABtm%E5%8E%BB%E7%82%92%E5%B8%81%E4%BA%86%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%8F%91%E8%A1%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E8%99%9A%E6%8B%9F%E5%B8%81/</guid>
+      <description>本教程基于以太坊生态ERC-20协议，不需要任何编程技术 本教程仅适用于计算机基础较薄弱的朋友，熟手请绕道 文中所有的链接处，请右键单击，选择在”新的窗口打开” 本文所述的，发行自己的虚拟币/虚拟资产/私人货币/ERC-20代币（以下统称为“代币”），需要以下几个步骤：
+准备一台可上网的电脑； 准备好自己所要发行代币的属性信息； 安装并打开谷歌浏览器； 在谷歌浏览器中，安装并配置MetaMask钱包（以下简称”小狐狸钱包“）； 获取以太坊Ropsten测试网络ETH代币； 使用一键发币工具，发行自己的代币； 将发行好的代币添加到自己的钱包； 完成； 以下为详细步骤：
+1.准备一台可上网的电脑 首先准备一台可上网的电脑，发币的过程在电脑上完成，Windows电脑和苹果电脑均可。
+2.准备好自己所要发行代币的属性信息 请先想好自己所要发行的代币的属性信息，然后写在纸上，方便后续直接填写；
+属性信息包括：
+代币名称：如Bitcoin, Citcoin, Ditcoin, renminbi.（请使用英文字符） 代币符号：如BTC, CTC, DTC, RMB.（通常为3-5个字符） 代币初始供应量（单位/个）：如21000000, 100000. 3.安装并打开谷歌浏览器 使用火狐Firefox浏览器操作也可以，但这里推荐使用谷歌浏览。较为稳定。请先安装好，后面的所有操作都在谷歌浏览器上进行.
+安装地址：点击进行安装
+注：如果你在中国大陆境内，未科学上网的情况下，请下载、安装蓝灯 Lantern, 实现科学上网（可免费使用），必须实现科学上网，后面的步骤需要通过谷歌应用商店下载小狐狸钱包：链接地址
+4.在谷歌浏览器中，安装并配置小狐狸钱包 注：如果阅读英文较为吃力，可在浏览器中点击右键，选择“翻译成中文”
+注：如果已经安装并配置好小狐狸钱包，请直接进入下一步
+在谷歌浏览器中，打开链接地址
+在左侧搜索栏，搜索 metamask ，可看到下图所示的应用，点击进行安装，然后按照应用的引导进行配置。
+注：请严格按照页面指引，配置小狐狸钱包，即便现在是使用测试网，也请仅在纸上记下助记词，不要在任何网盘存储助记词，也不要将助记词通过通讯工具发送给任何人，养成良好的私钥管理习惯
+配置好后，点击小狐狸图标，切换到Ropsten测试网络，
+5.获取以太坊Ropsten测试网络ETH代币 注：本教程以在以太坊Ropsten测试网络为例，发行代币，若在主网发行代币，需全程切换到“以太坊Ethereum主网络（以下简称主网）”。现在请按下图所示，选择以太坊Ropsten测试网络（以下简称测试网）
+选择好后，如下图所示，在页面上红框所示处，复制你的Ropsten测试网络钱包地址，形如：
+0x271eDbE0Fb2809de96C05207E4bbc3A73aD5edac
+然后打开以下链接地址，将上面所复制的钱包地址粘贴到地址填写栏，获取免费的测试网ETH，如下图所示，然后再点击Send me test Ether，等待几秒后，再次打开小狐狸，就可以看到测试网的钱包中，已经有了测试网ETH。
+注：这里的ETH仅供测试使用，无法提取到交易所进行交易
+6. 使用一键发币工具，发行自己的虚拟币 完成以上的所有步骤之后，就可以正式开始发行代币了。
+打开一键发币工具：链接地址
+在下图所示左侧界面中，依次填写：
+代币名称(Token Name)：如Bitcoin, Citcoin, renminbi.（使用英文字符） 代币符号(Token Symbol)：如BTC, CTC, RMB.（通常为3-5个字符） 代币初始供应量(Initial Supply)：如21000000, 100000 中间的一列不用修改，然后在页面最右侧，按以下内容进行选择：</description>
+    </item>
+    
+  </channel>
+</rss>
